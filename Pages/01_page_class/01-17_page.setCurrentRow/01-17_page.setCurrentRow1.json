@@ -1,0 +1,106 @@
+{
+  "Rows": {
+    "Sizes": {
+      "1": 30.0,
+      "2": 30.0,
+      "3": 30.0
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Sizes": {
+      "1": 80.0,
+      "2": 200.0,
+      "4": 80.0
+    },
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "이름:",
+    "1,4": "버튼",
+    "2,1": "생년월일:",
+    "3,1": "성별:"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "BindingInfo": {
+        "TableName": "_01_01_page_bind",
+        "ColumnName": "이름"
+      }
+    },
+    "1,4": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //데이터 테이블의 현재 행(Row)을 선택합니다.\r\n  page.setCurrentRow(\r\n  {\r\n    //'_01_01_page_bind'을 선택합니다.\r\n    TableName: \"_01_01_page_bind\",\r\n\r\n    //PrimaryKey로 ID가 2인 행을 찾습니다.\r\n    PrimaryKey: {\r\n      ID: 2\r\n    }\r\n  });",
+            "ID": "45c2f2de34bf4db386336eed8db6768b"
+          }
+        ],
+        "Text": "버튼",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "2,2": {
+      "BindingInfo": {
+        "TableName": "_01_01_page_bind",
+        "ColumnName": "생년월일"
+      }
+    },
+    "3,2": {
+      "BindingInfo": {
+        "TableName": "_01_01_page_bind",
+        "ColumnName": "성별"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Right",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "2,1": 0,
+      "3,1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,4,3,1"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

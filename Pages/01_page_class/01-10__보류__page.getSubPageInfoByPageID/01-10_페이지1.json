@@ -1,0 +1,96 @@
+{
+  "Rows": {
+    "Sizes": {
+      "2": 50.0
+    },
+    "Count": 50
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "2,1": "getSubPageInfoByPageID는 웹에서 작동하는 JavaScript가 아니라, Plugin을 생성할 때 사용하는 API이므로 이후 Plugin을 다시 개발하여 예제 작성합니다.",
+    "6,16": "버튼"
+  },
+  "AttachInfos": {
+    "6,1": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, Forguncy",
+        "Tabs": [
+          "01-10_페이지2"
+        ]
+      }
+    },
+    "6,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  var pageID = this.getFormulaCalcContext().PageID;\r\n  var pageInfo = Forguncy.Page.getSubPageInfoByPageID(pageID);\r\n  return pageInfo ? pageInfo.getListView(listViewName) : Forguncy.Page.getListView(listViewName, false);",
+            "ID": "7094a56b4f4f4ecaa18c2d4e6713493a"
+          }
+        ],
+        "Text": "버튼",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "Foreground": 1,
+        "HorizontalAlignment": 2
+      },
+      {
+        "Foreground": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFFFFF00",
+        "#FFFF0000",
+        "Center",
+        "#FF337AB7",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "2,1": 0,
+      "6,1": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 4
+    }
+  },
+  "Spans": [
+    "6,16,3,3",
+    "6,1,22,14",
+    "2,1,1,58"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

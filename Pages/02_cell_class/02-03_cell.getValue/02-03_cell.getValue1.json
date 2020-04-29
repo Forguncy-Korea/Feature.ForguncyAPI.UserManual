@@ -1,0 +1,72 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "안녕하세요. Forguncy",
+    "1,10": "버튼"
+  },
+  "AttachInfos": {
+    "1,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 \"myCell\"로 되어 있는 셀 인스턴스 정보를 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell에 기록된 값을 불러옵니다.\r\n  var cellValue = cell.getValue();\r\n\r\n  //myCell의 값을 팝업으로 화면에 표시합니다.\r\n  alert(cellValue);",
+            "ID": "fa68ce0a7b4a40cea466fbc3435f575d"
+          }
+        ],
+        "Text": "버튼",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,2,8",
+    "1,10,2,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "myCell",
+      "Formula": "'02-03_cell.getValue1'!$B$2"
+    }
+  ]
+}

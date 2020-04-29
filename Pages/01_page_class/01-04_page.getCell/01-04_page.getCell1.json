@@ -1,0 +1,110 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Sizes": {
+      "1": 21.0,
+      "2": 21.0,
+      "3": 21.0
+    },
+    "Count": 60
+  },
+  "Values": {
+    "1,12": "버튼",
+    "4,1": "01-04_페이지2"
+  },
+  "AttachInfos": {
+    "1,12": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //페이지 내에서 myCell 1과 2이라는 Cell Name을 가진 Cell들을 불러옵니다.\r\n  var cell1 = page.getCell(\"myCell1\");\r\n  var cell2 = page.getCell(\"myCell2\");\r\n\r\n  //myCell 1과 2에 Cell에 Forguncy라고 입력합니다.\r\n  cell1.setValue(\"Forguncy1\");\r\n  cell2.setValue(\"Forguncy2\");",
+            "ID": "a483ef378c494623a4260837356bc2a9"
+          }
+        ],
+        "Text": "버튼",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, Forguncy",
+        "PageName": "01-04_page.getCell2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 6 80",
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,12": 1,
+      "1,13": 2,
+      "1,14": 2,
+      "1,15": 2,
+      "2,12": 2,
+      "2,13": 2,
+      "2,14": 2,
+      "2,15": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,1,2,3",
+    "4,1,8,10",
+    "1,12,2,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "myCell1",
+      "Formula": "'01-04_page.getCell1'!$B$2"
+    }
+  ]
+}

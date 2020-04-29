@@ -1,0 +1,208 @@
+{
+  "Rows": {
+    "Sizes": {
+      "2": 30.0,
+      "5": 30.0,
+      "8": 30.0
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "도를 선택하세요.",
+    "4,1": "시를 선택하세요.",
+    "7,1": "도시를 선택하세요."
+  },
+  "AttachInfos": {
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "NoneItemText": "도구분 선택",
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "_01_06_한국도와시",
+        "ValueColumnBindingInfo": {
+          "TableName": "_01_06_한국도와시",
+          "ColumnName": "도구분"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "_01_06_한국도와시",
+          "ColumnName": "도구분"
+        },
+        "AddNullItemWhenBinding": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "5,1": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "NoneItemText": "시구분 선택",
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "_01_06_한국도와시",
+        "ValueColumnBindingInfo": {
+          "TableName": "_01_06_한국도와시",
+          "ColumnName": "시구분"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "_01_06_한국도와시",
+          "ColumnName": "시구분"
+        },
+        "AddNullItemWhenBinding": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "8,1": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "NoneItemText": "도시명 선택",
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "_01_06_한국도와시",
+        "ValueColumnBindingInfo": {
+          "TableName": "_01_06_한국도와시",
+          "ColumnName": "도시명"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "_01_06_한국도와시",
+          "ColumnName": "도시명"
+        },
+        "AddNullItemWhenBinding": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,1": 0,
+      "5,2": 0,
+      "5,3": 0,
+      "5,4": 0,
+      "5,5": 0,
+      "5,6": 0,
+      "5,7": 0,
+      "5,8": 0,
+      "5,9": 0,
+      "8,1": 0,
+      "8,2": 0,
+      "8,3": 0,
+      "8,4": 0,
+      "8,5": 0,
+      "8,6": 0,
+      "8,7": 0,
+      "8,8": 0,
+      "8,9": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,1,1,9",
+    "5,1,1,9",
+    "8,1,1,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

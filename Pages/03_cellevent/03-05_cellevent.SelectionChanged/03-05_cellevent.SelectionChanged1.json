@@ -1,0 +1,80 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "변경되면",
+            "DisplayValue": "변경되면"
+          },
+          {
+            "Value": "콜백이벤트가",
+            "DisplayValue": "콜백이벤트가"
+          },
+          {
+            "Value": "실행되요",
+            "DisplayValue": "실행되요"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "  //CallBack으로 사용할 이벤트를 정의합니다.\r\n  var selectionChangedEvent = function(arg) {\r\n      alert(\"안녕하세요. Forguncy!\");\r\n  }\r\n  \r\n  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //Cell Name이 picture라고 되어 있는 셀 인스턴스 속성을 가져옵니다.\r\n  var cell = page.getCell(\"combo\");\r\n\r\n  //combo 셀이 변경될 때 selectionChagnedEvent 이벤트를 binding합니다.\r\n  cell.bind(\"selectionChanged\", selectionChangedEvent);",
+            "ID": "9d51c355d298427a98fcf206eb71aea4"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,2,2,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "combo",
+      "Formula": "'03-05_cellevent.SelectionChanged1'!$C$3"
+    }
+  ]
+}

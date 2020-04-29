@@ -1,0 +1,211 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "4,22": "버튼"
+  },
+  "AttachInfos": {
+    "2,2": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "_04_01_이름생년월일부서",
+        "RowIndex": 2,
+        "ColumnIndex": 2,
+        "ColumnCount": 18,
+        "RowCount": 9,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "ListView1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "3,3": {
+      "BindingInfo": {
+        "TableName": "_04_01_이름생년월일부서",
+        "ColumnName": "이름"
+      }
+    },
+    "3,8": {
+      "BindingInfo": {
+        "TableName": "_04_01_이름생년월일부서",
+        "ColumnName": "생년월일"
+      }
+    },
+    "3,15": {
+      "BindingInfo": {
+        "TableName": "_04_01_이름생년월일부서",
+        "ColumnName": "부서"
+      }
+    },
+    "4,22": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "    //현재 페이지에 Namespace를 선언합니다.\r\n    var page = Forguncy.Page;\r\n    \r\n    //이름이 ListView1인 ListView를 가져옵니다.\r\n    var listview = page.getListView(\"ListView1\");\r\n\r\n    //ListView의 2번째 행(Row)을 선택합니다.\r\n    listview.addSelectedRow(2);",
+            "ID": "d531c763b6074448a9deed329466f055"
+          }
+        ],
+        "Text": "버튼",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "HorizontalAlignment": 1
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "Center",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 1,
+      "2,19": 2,
+      "3,2": 3,
+      "3,3": 4,
+      "3,19": 5,
+      "4,2": 3,
+      "4,19": 5,
+      "4,22": 6,
+      "4,23": 6,
+      "4,24": 6,
+      "4,25": 6,
+      "4,26": 6,
+      "5,2": 3,
+      "5,19": 5,
+      "5,22": 6,
+      "5,23": 6,
+      "5,24": 6,
+      "5,25": 6,
+      "5,26": 6,
+      "6,2": 3,
+      "6,19": 5,
+      "7,2": 3,
+      "7,19": 5,
+      "8,2": 3,
+      "8,19": 5,
+      "9,2": 3,
+      "9,19": 5,
+      "10,2": 7,
+      "10,3": 8,
+      "10,4": 8,
+      "10,5": 8,
+      "10,6": 8,
+      "10,7": 8,
+      "10,8": 8,
+      "10,9": 8,
+      "10,10": 8,
+      "10,11": 8,
+      "10,12": 8,
+      "10,13": 8,
+      "10,14": 8,
+      "10,15": 8,
+      "10,16": 8,
+      "10,17": 8,
+      "10,18": 8,
+      "10,19": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,3,1,5",
+    "3,8,1,7",
+    "3,15,1,5",
+    "4,2,7,18",
+    "4,22,2,5",
+    "2,3,1,5",
+    "2,8,1,7",
+    "2,15,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

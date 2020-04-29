@@ -1,0 +1,67 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "  //CallBack으로 사용할 이벤트를 정의합니다.\r\n  var enteringMouseEvent = function(arg) {\r\n      alert(\"안녕하세요. Forguncy!\");\r\n  }\r\n  \r\n  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //Cell Name이 picture라고 되어 있는 셀 인스턴스 속성을 가져옵니다.\r\n  var cell = page.getCell(\"picture\");\r\n\r\n  //picture 셀에 enteringMouseEvent 이벤트를 binding합니다.\r\n  cell.bind(\"mouseEnter\", enteringMouseEvent);",
+            "ID": "b2d80d9a85344c5993466750f43bf1eb"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ImagePath": "fgc_logo_light.png"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,5,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "UserJavaScriptName": "03-03_cellevent-mouseenter-example01.js",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "picture",
+      "Formula": "'03-03_cellevent.EnterMouse1'!$B$2"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "7,17": "버튼"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "_01_01_page_bind",
+        "RowIndex": 1,
+        "ColumnIndex": 1,
+        "ColumnCount": 15,
+        "RowCount": 9,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "ListView1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "2,1": {
+      "BindingInfo": {
+        "TableName": "_01_01_page_bind",
+        "ColumnName": "이름"
+      }
+    },
+    "2,6": {
+      "BindingInfo": {
+        "TableName": "_01_01_page_bind",
+        "ColumnName": "생년월일"
+      }
+    },
+    "2,12": {
+      "BindingInfo": {
+        "TableName": "_01_01_page_bind",
+        "ColumnName": "성별"
+      }
+    },
+    "7,17": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //데이터베이스에서 데이터를 다시 불러옵니다.\r\n  page.reloadBindingData(\"_01_01_page_bind\");",
+            "ID": "aebfad2d02c1498fa8831840bf1162e6"
+          }
+        ],
+        "Text": "버튼",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "Formatter": 2
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 3
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "Body",
+        "yyyy/m/d",
+        "[AUTO]General"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 1,
+      "1,14": 1,
+      "1,15": 2,
+      "1,16": 3,
+      "1,17": 3,
+      "1,18": 3,
+      "1,19": 3,
+      "1,20": 3,
+      "1,21": 3,
+      "1,22": 3,
+      "1,23": 3,
+      "1,24": 3,
+      "2,1": 4,
+      "2,6": 5,
+      "2,15": 6,
+      "2,16": 3,
+      "2,17": 3,
+      "2,18": 3,
+      "2,19": 3,
+      "2,20": 3,
+      "2,21": 3,
+      "2,22": 3,
+      "2,23": 3,
+      "2,24": 3,
+      "3,1": 4,
+      "3,15": 6,
+      "4,1": 4,
+      "4,15": 6,
+      "5,1": 4,
+      "5,15": 6,
+      "6,1": 4,
+      "6,15": 6,
+      "7,1": 4,
+      "7,15": 6,
+      "7,17": 7,
+      "7,18": 3,
+      "7,19": 3,
+      "7,20": 3,
+      "8,1": 4,
+      "8,15": 6,
+      "8,17": 3,
+      "8,18": 3,
+      "8,19": 3,
+      "8,20": 3,
+      "9,1": 8,
+      "9,2": 9,
+      "9,3": 9,
+      "9,4": 9,
+      "9,5": 9,
+      "9,6": 9,
+      "9,7": 9,
+      "9,8": 9,
+      "9,9": 9,
+      "9,10": 9,
+      "9,11": 9,
+      "9,12": 9,
+      "9,13": 9,
+      "9,14": 9,
+      "9,15": 10,
+      "9,17": 3,
+      "9,18": 3,
+      "9,19": 3,
+      "9,20": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "2,1,1,5",
+    "2,6,1,6",
+    "2,12,1,3",
+    "3,1,7,15",
+    "7,17,3,4",
+    "1,1,1,5",
+    "1,6,1,6",
+    "1,12,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

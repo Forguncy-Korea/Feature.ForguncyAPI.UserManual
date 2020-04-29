@@ -1,0 +1,2167 @@
+{
+  "Rows": {
+    "Sizes": {
+      "0": 10.0,
+      "1": 50.0,
+      "2": 10.0,
+      "3": 25.0,
+      "4": 20.0
+    },
+    "Count": 48,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "Sizes": {
+      "2": 25.0,
+      "3": 5.0,
+      "23": 25.0,
+      "24": 5.0,
+      "44": 25.0,
+      "45": 5.0
+    },
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "Forguncy API 교육용 데모",
+    "3,1": "Forguncy API 매뉴얼은 Forguncy 사용자 매뉴얼 페이지의 실제 예제입니다. 자세한 내용은 Forguncy 매뉴얼 페이지를 참고하세요.",
+    "5,2": "관련 링크 (새창으로 이동)",
+    "5,23": "Page 클래스 >>>>>>>>",
+    "5,44": "Cell 클래스 >>>>>>>>",
+    "6,2": "1.",
+    "6,4": "Grapecity 공식 홈페이지",
+    "6,23": "1.",
+    "6,25": "getUserInfo",
+    "6,44": "1.",
+    "6,46": "disable",
+    "7,2": "2.",
+    "7,4": "Forguncy 제품 공식 홈페이지",
+    "7,23": "2.",
+    "7,25": "getUserName",
+    "7,44": "2.",
+    "7,46": "enable (※ disable 참고)",
+    "8,2": "3.",
+    "8,4": "Forguncy Demo 페이지",
+    "8,23": "3.",
+    "8,25": "bind",
+    "8,44": "3.",
+    "8,46": "hide",
+    "9,2": "4.",
+    "9,4": "Forguncy 사용자 매뉴얼",
+    "9,23": "4.",
+    "9,25": "unbind",
+    "9,44": "4.",
+    "9,46": "show (※ hide 참고)",
+    "10,23": "5.",
+    "10,25": "unbindAll (※ unbind 참고)",
+    "10,44": "5.",
+    "10,46": "getValue",
+    "11,23": "6.",
+    "11,25": "ready",
+    "11,44": "6.",
+    "11,46": "setValue",
+    "12,23": "7.",
+    "12,25": "getCellByLocation",
+    "12,44": "7.",
+    "12,46": "bind",
+    "13,23": "8.",
+    "13,25": "getCell",
+    "13,44": "8.",
+    "13,46": "unbind",
+    "14,23": "9.",
+    "14,25": "getCellArray",
+    "14,44": "9.",
+    "14,46": "unbindAll",
+    "15,23": "10.",
+    "15,25": "getContainerCells",
+    "15,44": "10.",
+    "15,46": "getTabCount",
+    "16,23": "11.",
+    "16,25": "getListView",
+    "16,44": "11.",
+    "16,46": "getActiveTabIndex",
+    "17,23": "12.",
+    "17,25": "getListViews",
+    "17,44": "12.",
+    "17,46": "showTab",
+    "18,23": "13.",
+    "18,25": "getPageName",
+    "18,44": "13.",
+    "18,46": "getTabPage",
+    "19,23": "14.",
+    "19,25": "getMasterPageName",
+    "19,44": "14.",
+    "19,46": "getContentPage",
+    "20,23": "15.",
+    "20,25": "getSubPageInfoByPageID (※ 보류)",
+    "20,44": "15.",
+    "20,46": "hasFocus",
+    "21,23": "16.",
+    "21,25": "reloadBindingData",
+    "21,44": "16.",
+    "21,46": "setFocus",
+    "22,23": "17.",
+    "22,25": "setCurrentRow",
+    "22,44": "17.",
+    "22,46": "setBackColor",
+    "23,23": "18.",
+    "23,25": "recalc",
+    "23,44": "18.",
+    "23,46": "setForeColor",
+    "24,23": "19.",
+    "24,25": "suspendCalc",
+    "25,23": "20.",
+    "25,25": "resumeCalc (※ suspendCalc 참고)",
+    "29,2": "CellEvent 클래스 >>>>>>>>",
+    "29,23": "ListView 클래스 >>>>>>>>",
+    "30,2": "1.",
+    "30,4": "click",
+    "31,2": "2.",
+    "31,4": "pitbotTableClick",
+    "32,2": "3.",
+    "32,4": "enterMouse",
+    "33,2": "4.",
+    "33,4": "leaveMouse",
+    "34,2": "5.",
+    "34,4": "selectionChanged",
+    "35,2": "6.",
+    "35,4": "valueChagned"
+  },
+  "AttachInfos": {
+    "6,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "URL": "https://www.grapecity.co.kr/",
+            "PassValues": [],
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "Grapecity 공식 홈페이지",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "6,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-11_page.getUserInfo1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getUserInfo",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "6,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-01_cell.disable_enable1",
+            "PassValues": []
+          }
+        ],
+        "Text": "disable",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "7,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "URL": "https://www.grapecity.co.kr/solutions/forguncy",
+            "PassValues": [],
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "Forguncy 제품 공식 홈페이지",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "7,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-12_page.gerUserName1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getUserName",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "8,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "URL": "https://forguncy.co.kr/demo",
+            "PassValues": [],
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "Forguncy Demo 페이지",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "8,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-01_page.bind1",
+            "PassValues": []
+          }
+        ],
+        "Text": "bind",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "8,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-02_cell.hide_show1",
+            "PassValues": []
+          }
+        ],
+        "Text": "hide",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "9,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "URL": "https://forguncy-korea.github.io/",
+            "PassValues": [],
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "Forguncy 사용자 매뉴얼",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "9,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-18_page.unbind1",
+            "PassValues": []
+          }
+        ],
+        "Text": "unbind",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "10,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-03_cell.getValue1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getValue",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "11,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-13_page.ready1",
+            "PassValues": []
+          }
+        ],
+        "Text": "ready",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "11,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-04_cell.setValue1",
+            "PassValues": []
+          }
+        ],
+        "Text": "setValue",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "12,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ImagePath": "Picture1.png"
+      }
+    },
+    "12,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-03_page.getCellByLocation1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getCellByLocation",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "12,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-05_cell.bind1",
+            "PassValues": []
+          }
+        ],
+        "Text": "bind",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "13,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-04_page.getCell1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getCell",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "13,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-06_cell.unbind1",
+            "PassValues": []
+          }
+        ],
+        "Text": "unbind",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "14,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-02_page.getCellArray1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getCellArray",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "14,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-07_cell.unbindall1",
+            "PassValues": []
+          }
+        ],
+        "Text": "unbindAll",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "15,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-05_page.getContainerCells1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getContainerCells",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "15,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-10_cell.getTabCount1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getTabCount",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "16,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-07_page.getListView1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getListView",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "16,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-08_cell.getActiveTabIndex1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getActiveTabIndex",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "17,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-06_page.getListViews1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getListViews",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "17,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-12_cell.showTab1",
+            "PassValues": []
+          }
+        ],
+        "Text": "showTab",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "18,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-09_page.getPageName1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getPageName",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "18,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-11_cell.getTabPage1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getTabPage",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "19,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-08_page.getMasterPageName1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getMasterPageName",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "19,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-09_cell.getContentPage1",
+            "PassValues": []
+          }
+        ],
+        "Text": "getContentPage",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "20,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-13_cell.hasFocus1",
+            "PassValues": []
+          }
+        ],
+        "Text": "hasFocus",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "21,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-15_page.reloadBindingData1",
+            "PassValues": []
+          }
+        ],
+        "Text": "reloadBindingData",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "21,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-14_cell.setFocus1",
+            "PassValues": []
+          }
+        ],
+        "Text": "setFocus",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "22,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-17_page.setCurrentRow1",
+            "PassValues": []
+          }
+        ],
+        "Text": "setCurrentRow",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "22,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-15_cell.setBackcolor1",
+            "PassValues": []
+          }
+        ],
+        "Text": "setBackColor",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "23,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-14_page.recalc1",
+            "PassValues": []
+          }
+        ],
+        "Text": "recalc",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "23,46": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "02-16_cell.setForecolor1",
+            "PassValues": []
+          }
+        ],
+        "Text": "setForeColor",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "24,25": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "01-16_page.resumeCalc1",
+            "PassValues": []
+          }
+        ],
+        "Text": "suspendCalc",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "30,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "03-01_cellevent.Click1",
+            "PassValues": []
+          }
+        ],
+        "Text": "click",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "31,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "03-02_cellevent.PitvotTableClick1",
+            "PassValues": []
+          }
+        ],
+        "Text": "pitbotTableClick",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "32,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "03-03_cellevent.EnterMouse1",
+            "PassValues": []
+          }
+        ],
+        "Text": "enterMouse",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "33,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "03-04_cellevent.LeaveMouse1",
+            "PassValues": []
+          }
+        ],
+        "Text": "leaveMouse",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "34,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "03-05_cellevent.SelectionChanged1",
+            "PassValues": []
+          }
+        ],
+        "Text": "selectionChanged",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "35,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "03-06_cellevent_ValueChanged1",
+            "PassValues": []
+          }
+        ],
+        "Text": "valueChagned",
+        "ClickMode": 1,
+        "TemplateKey": "메뉴_링크",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 24.0,
+        "FontWeight": 0
+      },
+      {
+        "Background": 1,
+        "FontFamily": 2,
+        "FontWeight": 0,
+        "Formatter": 3
+      },
+      {
+        "Background": 1,
+        "FontFamily": 2,
+        "FontWeight": 0,
+        "Formatter": 3,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontFamily": 5,
+        "Formatter": 6,
+        "HorizontalAlignment": 7
+      },
+      {
+        "FontFamily": 5
+      },
+      {
+        "Underline": false
+      },
+      {
+        "FontFamily": 5,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 5,
+        "FontSize": 13.333333333333332,
+        "Formatter": 6,
+        "HorizontalAlignment": 7
+      },
+      {
+        "FontFamily": 5,
+        "FontSize": 13.333333333333332,
+        "Underline": false
+      },
+      {
+        "FontFamily": 5,
+        "FontSize": 13.333333333333332,
+        "Formatter": 3,
+        "Underline": false
+      },
+      {
+        "FontFamily": 5,
+        "FontSize": 13.333333333333332,
+        "Foreground": 8,
+        "Formatter": 3
+      },
+      {
+        "Foreground": 8
+      },
+      {
+        "FontFamily": 5,
+        "FontSize": 13.333333333333332,
+        "Foreground": 8
+      },
+      {
+        "Background": 1
+      },
+      {
+        "FontSize": 13.333333333333332
+      },
+      {
+        "Formatter": 6,
+        "HorizontalAlignment": 7
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Background 1 -5",
+        "돋움체",
+        "[AUTO]General",
+        "Left",
+        "Body",
+        "@",
+        "Right",
+        "Text 1 50"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "5,1": 1,
+      "5,2": 2,
+      "5,22": 1,
+      "5,23": 2,
+      "5,24": 3,
+      "5,25": 4,
+      "5,26": 4,
+      "5,27": 4,
+      "5,28": 4,
+      "5,29": 4,
+      "5,30": 4,
+      "5,31": 4,
+      "5,32": 4,
+      "5,33": 4,
+      "5,34": 4,
+      "5,35": 4,
+      "5,36": 4,
+      "5,43": 1,
+      "5,44": 2,
+      "5,45": 3,
+      "5,46": 4,
+      "5,47": 4,
+      "5,48": 4,
+      "5,49": 4,
+      "5,50": 4,
+      "5,51": 4,
+      "5,52": 4,
+      "5,53": 4,
+      "5,54": 4,
+      "5,55": 4,
+      "5,56": 4,
+      "5,57": 4,
+      "6,4": 5,
+      "6,22": 6,
+      "6,23": 7,
+      "6,24": 7,
+      "6,25": 8,
+      "6,35": 6,
+      "6,36": 6,
+      "6,43": 6,
+      "6,44": 7,
+      "6,45": 7,
+      "6,46": 8,
+      "6,56": 6,
+      "6,57": 6,
+      "7,4": 9,
+      "7,22": 6,
+      "7,23": 7,
+      "7,24": 7,
+      "7,25": 8,
+      "7,35": 6,
+      "7,36": 6,
+      "7,43": 6,
+      "7,44": 7,
+      "7,45": 7,
+      "7,46": 10,
+      "7,56": 6,
+      "7,57": 6,
+      "8,4": 9,
+      "8,22": 6,
+      "8,23": 7,
+      "8,24": 7,
+      "8,25": 8,
+      "8,35": 6,
+      "8,36": 6,
+      "8,43": 6,
+      "8,44": 7,
+      "8,45": 7,
+      "8,46": 8,
+      "8,56": 6,
+      "8,57": 6,
+      "9,4": 5,
+      "9,22": 6,
+      "9,23": 7,
+      "9,24": 7,
+      "9,25": 8,
+      "9,35": 6,
+      "9,36": 6,
+      "9,43": 6,
+      "9,44": 7,
+      "9,45": 7,
+      "9,46": 10,
+      "9,56": 6,
+      "9,57": 6,
+      "10,4": 11,
+      "10,22": 6,
+      "10,23": 7,
+      "10,24": 7,
+      "10,25": 10,
+      "10,35": 6,
+      "10,36": 6,
+      "10,43": 6,
+      "10,44": 7,
+      "10,45": 7,
+      "10,46": 8,
+      "10,56": 6,
+      "10,57": 6,
+      "11,22": 6,
+      "11,23": 7,
+      "11,24": 7,
+      "11,25": 8,
+      "11,35": 6,
+      "11,36": 6,
+      "11,43": 6,
+      "11,44": 7,
+      "11,45": 7,
+      "11,46": 8,
+      "11,56": 6,
+      "11,57": 6,
+      "12,4": 7,
+      "12,22": 6,
+      "12,23": 7,
+      "12,24": 7,
+      "12,25": 9,
+      "12,35": 6,
+      "12,36": 6,
+      "12,43": 6,
+      "12,44": 7,
+      "12,45": 7,
+      "12,46": 9,
+      "12,56": 6,
+      "12,57": 6,
+      "13,22": 6,
+      "13,23": 7,
+      "13,24": 7,
+      "13,25": 8,
+      "13,35": 6,
+      "13,36": 6,
+      "13,43": 6,
+      "13,44": 7,
+      "13,45": 7,
+      "13,46": 8,
+      "13,56": 6,
+      "13,57": 6,
+      "14,22": 6,
+      "14,23": 7,
+      "14,24": 7,
+      "14,25": 8,
+      "14,35": 6,
+      "14,36": 6,
+      "14,43": 6,
+      "14,44": 7,
+      "14,45": 7,
+      "14,46": 8,
+      "14,56": 6,
+      "14,57": 6,
+      "15,22": 6,
+      "15,23": 7,
+      "15,24": 7,
+      "15,25": 8,
+      "15,35": 6,
+      "15,36": 6,
+      "15,43": 6,
+      "15,44": 7,
+      "15,45": 7,
+      "15,46": 8,
+      "15,56": 6,
+      "15,57": 6,
+      "16,22": 6,
+      "16,23": 7,
+      "16,24": 7,
+      "16,25": 8,
+      "16,35": 6,
+      "16,36": 6,
+      "16,43": 6,
+      "16,44": 7,
+      "16,45": 7,
+      "16,46": 9,
+      "16,56": 6,
+      "16,57": 6,
+      "17,22": 6,
+      "17,23": 7,
+      "17,24": 7,
+      "17,25": 8,
+      "17,35": 6,
+      "17,36": 6,
+      "17,43": 6,
+      "17,44": 7,
+      "17,45": 7,
+      "17,46": 8,
+      "17,56": 6,
+      "17,57": 6,
+      "18,22": 6,
+      "18,23": 7,
+      "18,24": 7,
+      "18,25": 8,
+      "18,35": 6,
+      "18,36": 6,
+      "18,43": 6,
+      "18,44": 7,
+      "18,45": 7,
+      "18,46": 8,
+      "18,56": 6,
+      "18,57": 6,
+      "19,22": 6,
+      "19,23": 7,
+      "19,24": 7,
+      "19,25": 8,
+      "19,35": 6,
+      "19,36": 6,
+      "19,43": 6,
+      "19,44": 7,
+      "19,45": 7,
+      "19,46": 8,
+      "19,56": 6,
+      "19,57": 6,
+      "20,22": 6,
+      "20,23": 7,
+      "20,24": 7,
+      "20,25": 12,
+      "20,36": 6,
+      "20,43": 6,
+      "20,44": 7,
+      "20,45": 7,
+      "20,46": 8,
+      "20,56": 6,
+      "20,57": 6,
+      "21,22": 6,
+      "21,23": 7,
+      "21,24": 7,
+      "21,25": 8,
+      "21,35": 6,
+      "21,36": 6,
+      "21,43": 6,
+      "21,44": 7,
+      "21,45": 7,
+      "21,46": 8,
+      "21,56": 6,
+      "21,57": 6,
+      "22,22": 6,
+      "22,23": 7,
+      "22,24": 7,
+      "22,25": 8,
+      "22,35": 6,
+      "22,36": 6,
+      "22,43": 6,
+      "22,44": 7,
+      "22,45": 7,
+      "22,46": 8,
+      "22,56": 6,
+      "22,57": 6,
+      "23,22": 6,
+      "23,23": 7,
+      "23,24": 7,
+      "23,25": 8,
+      "23,35": 6,
+      "23,36": 6,
+      "23,43": 6,
+      "23,44": 7,
+      "23,45": 7,
+      "23,46": 8,
+      "23,56": 6,
+      "23,57": 6,
+      "24,22": 6,
+      "24,23": 7,
+      "24,24": 7,
+      "24,25": 8,
+      "24,35": 6,
+      "24,36": 6,
+      "25,22": 4,
+      "25,23": 7,
+      "25,24": 3,
+      "25,25": 10,
+      "25,36": 4,
+      "29,0": 4,
+      "29,1": 1,
+      "29,2": 2,
+      "29,3": 3,
+      "29,4": 4,
+      "29,5": 4,
+      "29,6": 4,
+      "29,7": 4,
+      "29,8": 4,
+      "29,9": 4,
+      "29,10": 4,
+      "29,11": 4,
+      "29,12": 4,
+      "29,13": 4,
+      "29,14": 4,
+      "29,15": 4,
+      "29,16": 4,
+      "29,17": 4,
+      "29,18": 4,
+      "29,19": 4,
+      "29,20": 4,
+      "29,21": 4,
+      "29,22": 1,
+      "29,23": 2,
+      "29,24": 3,
+      "29,25": 4,
+      "29,26": 4,
+      "29,27": 4,
+      "29,28": 4,
+      "29,29": 4,
+      "29,30": 4,
+      "29,31": 4,
+      "29,32": 4,
+      "29,33": 4,
+      "29,34": 4,
+      "29,35": 4,
+      "29,36": 4,
+      "29,37": 4,
+      "29,38": 4,
+      "29,39": 4,
+      "29,40": 4,
+      "29,41": 4,
+      "29,42": 4,
+      "29,43": 1,
+      "29,44": 2,
+      "29,45": 3,
+      "29,46": 4,
+      "29,47": 4,
+      "29,48": 4,
+      "29,49": 4,
+      "29,50": 4,
+      "29,51": 4,
+      "29,52": 4,
+      "29,53": 4,
+      "29,54": 4,
+      "29,55": 4,
+      "29,56": 4,
+      "29,57": 4,
+      "29,58": 4,
+      "29,59": 4,
+      "30,1": 6,
+      "30,2": 7,
+      "30,3": 7,
+      "30,4": 8,
+      "30,5": 6,
+      "30,6": 6,
+      "30,7": 6,
+      "30,8": 6,
+      "30,9": 6,
+      "30,10": 6,
+      "30,11": 6,
+      "30,12": 6,
+      "30,13": 6,
+      "30,14": 6,
+      "30,15": 6,
+      "31,1": 6,
+      "31,2": 7,
+      "31,3": 7,
+      "31,4": 9,
+      "31,14": 6,
+      "31,15": 6,
+      "32,1": 6,
+      "32,2": 7,
+      "32,3": 7,
+      "32,4": 8,
+      "32,5": 6,
+      "32,6": 6,
+      "32,7": 6,
+      "32,8": 6,
+      "32,9": 6,
+      "32,10": 6,
+      "32,11": 6,
+      "32,12": 6,
+      "32,13": 6,
+      "32,14": 6,
+      "32,15": 6,
+      "33,1": 6,
+      "33,2": 7,
+      "33,3": 7,
+      "33,4": 9,
+      "33,14": 6,
+      "33,15": 6,
+      "34,1": 6,
+      "34,2": 7,
+      "34,3": 7,
+      "34,4": 8,
+      "34,5": 6,
+      "34,6": 6,
+      "34,7": 6,
+      "34,8": 6,
+      "34,9": 6,
+      "34,10": 6,
+      "34,11": 6,
+      "34,12": 6,
+      "34,13": 6,
+      "34,14": 6,
+      "34,15": 6,
+      "35,1": 6,
+      "35,2": 7,
+      "35,3": 7,
+      "35,4": 8,
+      "35,5": 6,
+      "35,6": 6,
+      "35,7": 6,
+      "35,8": 6,
+      "35,9": 6,
+      "35,10": 6,
+      "35,11": 6,
+      "35,12": 6,
+      "35,13": 6,
+      "35,14": 6,
+      "35,15": 6,
+      "36,1": 6,
+      "36,2": 7,
+      "36,3": 7,
+      "36,4": 9,
+      "36,5": 6,
+      "36,6": 6,
+      "36,7": 6,
+      "36,8": 6,
+      "36,9": 6,
+      "36,10": 6,
+      "36,11": 6,
+      "36,12": 6,
+      "36,13": 6,
+      "36,14": 6,
+      "36,15": 6,
+      "37,1": 6,
+      "37,2": 7,
+      "37,3": 7,
+      "37,4": 8,
+      "37,5": 6,
+      "37,6": 6,
+      "37,7": 6,
+      "37,8": 6,
+      "37,9": 6,
+      "37,10": 6,
+      "37,11": 6,
+      "37,12": 6,
+      "37,13": 6,
+      "37,14": 6,
+      "37,15": 6,
+      "38,1": 6,
+      "38,2": 7,
+      "38,3": 7,
+      "38,4": 8,
+      "38,5": 6,
+      "38,6": 6,
+      "38,7": 6,
+      "38,8": 6,
+      "38,9": 6,
+      "38,10": 6,
+      "38,11": 6,
+      "38,12": 6,
+      "38,13": 6,
+      "38,14": 6,
+      "38,15": 6,
+      "39,1": 6,
+      "39,2": 7,
+      "39,3": 7,
+      "39,4": 8,
+      "39,5": 6,
+      "39,6": 6,
+      "39,7": 6,
+      "39,8": 6,
+      "39,9": 6,
+      "39,10": 6,
+      "39,11": 6,
+      "39,12": 6,
+      "39,13": 6,
+      "39,14": 6,
+      "39,15": 6,
+      "40,1": 6,
+      "40,2": 7,
+      "40,3": 7,
+      "40,4": 9,
+      "40,5": 6,
+      "40,6": 6,
+      "40,7": 6,
+      "40,8": 6,
+      "40,9": 6,
+      "40,10": 6,
+      "40,11": 6,
+      "40,12": 6,
+      "40,13": 6,
+      "40,14": 6,
+      "40,15": 6,
+      "41,1": 6,
+      "41,2": 7,
+      "41,3": 7,
+      "41,4": 8,
+      "41,5": 6,
+      "41,6": 6,
+      "41,7": 6,
+      "41,8": 6,
+      "41,9": 6,
+      "41,10": 6,
+      "41,11": 6,
+      "41,12": 6,
+      "41,13": 6,
+      "41,14": 6,
+      "41,15": 6,
+      "42,1": 6,
+      "42,2": 7,
+      "42,3": 7,
+      "42,4": 8,
+      "42,5": 6,
+      "42,6": 6,
+      "42,7": 6,
+      "42,8": 6,
+      "42,9": 6,
+      "42,10": 6,
+      "42,11": 6,
+      "42,12": 6,
+      "42,13": 6,
+      "42,14": 6,
+      "42,15": 6,
+      "43,1": 6,
+      "43,2": 7,
+      "43,3": 7,
+      "43,4": 8,
+      "43,5": 6,
+      "43,6": 6,
+      "43,7": 6,
+      "43,8": 6,
+      "43,9": 6,
+      "43,10": 6,
+      "43,11": 6,
+      "43,12": 6,
+      "43,13": 6,
+      "43,14": 6,
+      "43,15": 6,
+      "44,1": 6,
+      "44,2": 7,
+      "44,3": 7,
+      "44,4": 8,
+      "44,5": 6,
+      "44,6": 6,
+      "44,7": 6,
+      "44,8": 6,
+      "44,9": 6,
+      "44,10": 6,
+      "44,11": 6,
+      "44,12": 6,
+      "44,13": 6,
+      "44,14": 6,
+      "44,15": 6,
+      "45,1": 6,
+      "45,2": 7,
+      "45,3": 7,
+      "45,4": 8,
+      "45,5": 6,
+      "45,6": 6,
+      "45,7": 6,
+      "45,8": 6,
+      "45,9": 6,
+      "45,10": 6,
+      "45,11": 6,
+      "45,12": 6,
+      "45,13": 6,
+      "45,14": 6,
+      "45,15": 6,
+      "46,1": 6,
+      "46,2": 7,
+      "46,3": 7,
+      "46,4": 8,
+      "46,5": 6,
+      "46,6": 6,
+      "46,7": 6,
+      "46,8": 6,
+      "46,9": 6,
+      "46,10": 6,
+      "46,11": 6,
+      "46,12": 6,
+      "46,13": 6,
+      "46,14": 6,
+      "46,15": 6,
+      "47,1": 6,
+      "47,2": 7,
+      "47,3": 7,
+      "47,4": 8,
+      "47,5": 6,
+      "47,6": 6,
+      "47,7": 6,
+      "47,8": 6,
+      "47,9": 6,
+      "47,10": 6,
+      "47,11": 6,
+      "47,12": 6,
+      "47,13": 6,
+      "47,14": 6,
+      "47,15": 6
+    },
+    "RowStyles": {
+      "1": 13,
+      "6": 14,
+      "7": 14,
+      "8": 14,
+      "9": 14,
+      "10": 14,
+      "11": 14,
+      "12": 14,
+      "13": 14,
+      "14": 14,
+      "15": 14,
+      "16": 14,
+      "17": 14,
+      "18": 14,
+      "19": 14,
+      "20": 14,
+      "21": 14,
+      "22": 14,
+      "23": 14,
+      "24": 14
+    },
+    "ColStyles": {
+      "2": 15,
+      "3": 15
+    },
+    "SheetStyle": {
+      "FontFamily": 5
+    }
+  },
+  "Spans": [
+    "5,2,1,14",
+    "5,44,1,14",
+    "5,23,1,14",
+    "12,4,14,14",
+    "29,44,1,14",
+    "29,23,1,14",
+    "6,25,1,10",
+    "7,25,1,10",
+    "8,25,1,10",
+    "9,25,1,10",
+    "10,25,1,10",
+    "11,25,1,10",
+    "9,4,1,10",
+    "8,4,1,10",
+    "7,4,1,10",
+    "6,4,1,10",
+    "12,25,1,10",
+    "13,25,1,10",
+    "14,25,1,10",
+    "15,25,1,10",
+    "16,25,1,10",
+    "17,25,1,10",
+    "18,25,1,10",
+    "19,25,1,10",
+    "20,25,1,11",
+    "21,25,1,10",
+    "22,25,1,10",
+    "23,25,1,10",
+    "24,25,1,10",
+    "25,25,1,11",
+    "6,46,1,10",
+    "7,46,1,10",
+    "8,46,1,10",
+    "9,46,1,10",
+    "10,46,1,10",
+    "11,46,1,10",
+    "12,46,1,10",
+    "13,46,1,10",
+    "14,46,1,10",
+    "15,46,1,10",
+    "16,46,1,10",
+    "17,46,1,10",
+    "18,46,1,10",
+    "19,46,1,10",
+    "20,46,1,10",
+    "21,46,1,10",
+    "22,46,1,10",
+    "23,46,1,10",
+    "29,2,1,14",
+    "30,4,1,10",
+    "32,4,1,10",
+    "34,4,1,10",
+    "35,4,1,10",
+    "31,4,1,10",
+    "33,4,1,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

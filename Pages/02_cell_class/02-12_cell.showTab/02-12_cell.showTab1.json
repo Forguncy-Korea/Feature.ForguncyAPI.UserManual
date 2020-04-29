@@ -1,0 +1,111 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "21,1": "버튼"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, Forguncy",
+        "Tabs": [
+          "02-12_cell.showTab2",
+          "02-12_cell.showTab3",
+          "02-12_cell.showTab4",
+          "02-12_cell.showTab5"
+        ]
+      }
+    },
+    "21,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 tabControl로 되어 있는 셀 인스턴스의 정보를 가져옵니다.\r\n  var tabControlCell = page.getCell(\"tabControl\");\r\n\r\n  //tabConrol의 index가 1인 탭을 활성화하여 화면에 표시합니다.\r\n  tabControlCell.showTab(1);",
+            "ID": "30229bb942ec473b94efa5fcf1838597"
+          }
+        ],
+        "Text": "버튼",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FF337AB7",
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "21,1": 1,
+      "21,2": 2,
+      "21,3": 2,
+      "21,4": 2,
+      "21,5": 2,
+      "21,6": 2,
+      "22,1": 2,
+      "22,2": 2,
+      "22,3": 2,
+      "22,4": 2,
+      "22,5": 2,
+      "22,6": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,1,19,30",
+    "21,1,2,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "tabControl",
+      "Formula": "'02-12_cell.showTab1'!$B$2"
+    }
+  ]
+}

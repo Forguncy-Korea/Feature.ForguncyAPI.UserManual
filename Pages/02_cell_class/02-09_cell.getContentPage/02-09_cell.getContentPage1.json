@@ -1,0 +1,78 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "02-10_페이지2",
+    "17,1": "버튼"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, Forguncy",
+        "PageName": "02-09_cell.getContentPage2"
+      }
+    },
+    "17,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 container라고 되어 있는 셀 인스턴스의 정보를 가져옵니다.\r\n  var containerCell = page.getCell(\"container\");\r\n\r\n  //container셀이 포함하고 있는 하위 페이지 객체를 가져옵니다.\r\n  var subPage = containerCell.getContentPage();\r\n\r\n  //하위 페이지의 이름이 '02-10_페이지2'인지 확인합니다.\r\n  if (subPage.getPageName() == \"02-10_페이지2\") {\r\n\r\n    //하위 페이지 객체 정보 중 Cell Name이 myCell인 셀 인스턴스의 정보를 가져옵니다.\r\n    var subPageCell = subPage.getCell(\"myCell\");\r\n  };\r\n\r\n  //가져온 하위 페이지 셀 인스턴스의 정보 중 값을 화면에 표시합니다.\r\n  alert(subPageCell.getValue());",
+            "ID": "ae1ef3e30fc549eaa0b559e31affdead"
+          }
+        ],
+        "Text": "버튼",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,15,24",
+    "17,1,2,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "container",
+      "Formula": "'02-09_cell.getContentPage1'!$B$2"
+    }
+  ]
+}

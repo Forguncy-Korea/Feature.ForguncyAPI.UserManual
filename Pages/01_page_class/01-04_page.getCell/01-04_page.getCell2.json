@@ -1,0 +1,52 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Sizes": {
+      "1": 21.0,
+      "2": 21.0,
+      "3": 21.0
+    },
+    "Count": 60
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "FontSize": 13.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 2 80",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,1,2,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "myCell2",
+      "Formula": "'01-04_page.getCell2'!$B$2"
+    }
+  ]
+}

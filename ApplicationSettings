@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+  <FocusMoveMode>Default</FocusMoveMode>
+  <IntegrateWithOtherApplication>
+    <Password>QfkW^o4FPq!5</Password>
+  </IntegrateWithOtherApplication>
+  <UserServicePort>62277</UserServicePort>
+  <WebSitePort>42350</WebSitePort>
+</ApplicationSettings>
