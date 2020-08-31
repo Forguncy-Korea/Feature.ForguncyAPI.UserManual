@@ -52,7 +52,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "    //현재 페이지에 Namespace를 선언합니다.\r\n    var page = Forguncy.Page;\r\n    \r\n    //이름이 ListView1인 ListView를 가져옵니다.\r\n    var listview = page.getListView(\"ListView1\");\r\n\r\n    //가져온 ListView에 이름, 생년월일, 부서 데이터를 입력합니다.\r\n    listview.addNewRow (\r\n    {\r\n      \"이름\" : \"이 설\",\r\n      \"생년월일\" : new Date(2012, 2, 7),\r\n      \"부서\" : \"마케팅\"\r\n    });",
-            "ID": "7542fa7755074920a6275985f49c3f4a"
+            "ID": "818220edeba54d44aec1562b3c9b08a5"
           }
         ],
         "Text": "버튼",
@@ -201,7 +201,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

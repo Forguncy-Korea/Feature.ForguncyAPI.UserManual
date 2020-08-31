@@ -41,7 +41,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 myCell로 지정된 셀 인스턴스의 속성을 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell에 Focus가 되어 있는 지 확인합니다.\r\n  var f = cell.hasFocus();\r\n\r\n  //포커스 결과를 화면에 표시합니다.\r\n  alert(f);",
-            "ID": "1711241428c24f22948896d53943296e"
+            "ID": "5f09d505bf824ef6a4bc02e269b8f56d"
           }
         ],
         "Text": "버튼",
@@ -75,7 +75,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 myCell로 지정된 셀 인스턴스의 속성을 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell에 Focus가 되어 있는 지 확인합니다.\r\n  var f = cell.hasFocus();\r\n\r\n  //포커스 결과를 화면에 표시합니다.\r\n  alert(f);",
-            "ID": "9241e550974446359f6d86558b1a07c4"
+            "ID": "68f4df46699d463192a50cace81abfee"
           }
         ],
         "UIPermissions": [
@@ -114,7 +114,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

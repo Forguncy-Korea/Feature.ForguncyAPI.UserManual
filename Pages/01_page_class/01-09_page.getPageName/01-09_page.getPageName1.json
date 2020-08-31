@@ -58,7 +58,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //화면에 표시되는 페이지의 이름을 확인합니다.\r\n  var pageName = page.getPageName();\r\n\r\n  //페이지의 이름을 화면에 표시합니다.\r\n  alert(pageName);",
-            "ID": "99255b3bc59d4d2a9adb99c1ff24dc1c"
+            "ID": "d669655966db4c0e8315f533d91d6ba7"
           }
         ],
         "Text": "버튼",
@@ -99,7 +99,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

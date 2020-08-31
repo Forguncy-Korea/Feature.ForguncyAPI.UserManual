@@ -58,6 +58,8 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "Title": "유지보수",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },

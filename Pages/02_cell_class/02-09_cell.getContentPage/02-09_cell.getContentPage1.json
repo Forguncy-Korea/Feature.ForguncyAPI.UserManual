@@ -23,7 +23,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 container라고 되어 있는 셀 인스턴스의 정보를 가져옵니다.\r\n  var containerCell = page.getCell(\"container\");\r\n\r\n  //container셀이 포함하고 있는 하위 페이지 객체를 가져옵니다.\r\n  var subPage = containerCell.getContentPage();\r\n\r\n  //하위 페이지의 이름이 '02-10_페이지2'인지 확인합니다.\r\n  if (subPage.getPageName() == \"02-10_페이지2\") {\r\n\r\n    //하위 페이지 객체 정보 중 Cell Name이 myCell인 셀 인스턴스의 정보를 가져옵니다.\r\n    var subPageCell = subPage.getCell(\"myCell\");\r\n  };\r\n\r\n  //가져온 하위 페이지 셀 인스턴스의 정보 중 값을 화면에 표시합니다.\r\n  alert(subPageCell.getValue());",
-            "ID": "ae1ef3e30fc549eaa0b559e31affdead"
+            "ID": "958c08537b9a4345a92574a90bb97ef8"
           }
         ],
         "Text": "버튼",
@@ -63,7 +63,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

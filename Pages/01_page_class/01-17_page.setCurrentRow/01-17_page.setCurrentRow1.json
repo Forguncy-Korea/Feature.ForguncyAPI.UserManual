@@ -35,7 +35,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //데이터 테이블의 현재 행(Row)을 선택합니다.\r\n  page.setCurrentRow(\r\n  {\r\n    //'_01_01_page_bind'을 선택합니다.\r\n    TableName: \"_01_01_page_bind\",\r\n\r\n    //PrimaryKey로 ID가 2인 행을 찾습니다.\r\n    PrimaryKey: {\r\n      ID: 2\r\n    }\r\n  });",
-            "ID": "45c2f2de34bf4db386336eed8db6768b"
+            "ID": "bdc91b2de383401382fec8f7219ba1a6"
           }
         ],
         "Text": "버튼",
@@ -97,7 +97,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

@@ -184,6 +184,8 @@
     "MasterPageName": "FGC_유저마스터페이지",
     "MobilePageName": "FGC_이메일알림설정_모바일",
     "Title": "메일 구독",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true
   },
   "PrintInfo": {

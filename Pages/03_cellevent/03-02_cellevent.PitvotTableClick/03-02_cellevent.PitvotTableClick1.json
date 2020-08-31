@@ -107,6 +107,7 @@
           "RowMaster": "ListView1"
         },
         "PivotTableStyle": {},
+        "PivotTableID": "7a3243cc-b9f8-4e58-9881-32477d4ba4d1",
         "TemplateKey": "Accent_1_3"
       }
     }
@@ -224,7 +225,9 @@
     "UserJavaScriptName": "03-02_cellevent-pivottablecell-example01.js",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

@@ -212,6 +212,8 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "Title": "사용자 정보 편집",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },

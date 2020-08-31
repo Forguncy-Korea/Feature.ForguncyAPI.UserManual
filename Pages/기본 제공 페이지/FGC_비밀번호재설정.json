@@ -242,6 +242,8 @@
     "MasterPageName": "FGC_유저마스터페이지",
     "MobilePageName": "FGC_비밀번호재설정_모바일",
     "Title": "비밀번호 재설정",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true
   },
   "PrintInfo": {

@@ -23,7 +23,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //Forguncy에서 myCell이라는 이름을 가진 특정 Cell 인스턴스의 정보를 불러옵니다.\r\n  var cell = page.getCellArray(\"myCell\");\r\n\r\n  //가져온 Cell 인스턴스의 정보 중 길이(length)를 불러옵니다.\r\n  var len = cell.length;\r\n\r\n  //불러온 Cell의 길이를 표시합니다.\r\n  alert(len);",
-            "ID": "b198611a56c749e3b51b07c2370a0788"
+            "ID": "1c8df270be764c7bbc37b8f4e6ad7ac1"
           }
         ],
         "Text": "버튼",
@@ -148,7 +148,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

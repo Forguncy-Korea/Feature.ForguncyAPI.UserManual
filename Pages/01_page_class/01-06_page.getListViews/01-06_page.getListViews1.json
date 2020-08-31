@@ -70,7 +70,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //페이지 내 ListView 인스턴스들을 불러옵니다.\r\n  var listview = page.getListViews();\r\n\r\n  //ListView 인스턴스 그룹의 길이를 확인합니다.\r\n  var len = listview.length;\r\n\r\n  //ListView 인스턴스 그룹의 길이를 화면에 표시합니다.\r\n  alert(len);",
-            "ID": "5c473fdcb5714311a35ecef19e67901e"
+            "ID": "fad199cd7f5f4f3db7db1e21f2d6910a"
           }
         ],
         "Text": "버튼",
@@ -705,7 +705,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

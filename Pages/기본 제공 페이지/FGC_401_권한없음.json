@@ -132,6 +132,8 @@
     "MasterPageName": "FGC_유저마스터페이지",
     "MobilePageName": "FGC_401_권한없음_모바일",
     "Title": "401페이지",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true
   },
   "PrintInfo": {

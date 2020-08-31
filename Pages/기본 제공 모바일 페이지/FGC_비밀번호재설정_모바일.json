@@ -192,6 +192,8 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "Title": "비밀번호 재설정",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },

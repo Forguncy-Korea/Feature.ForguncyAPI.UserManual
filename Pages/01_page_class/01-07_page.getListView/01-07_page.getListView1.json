@@ -67,7 +67,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //이름이 ListView1이라는 ListView의 인스턴스를 가져옵니다.\r\n  var listview = page.getListView(\"ListView1\");\r\n\r\n  //ListView1의 속성 중 이름을 확인합니다.\r\n  var name = listview.getName();\r\n\r\n  //ListView1의 이름을 화면에 표시합니다.\r\n  alert(name);",
-            "ID": "dd91db27a9db4c8691fd2e1b10eda09e"
+            "ID": "a511c6b2bc4f415ca9ecdbab871cd74b"
           }
         ],
         "Text": "분류",
@@ -474,7 +474,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

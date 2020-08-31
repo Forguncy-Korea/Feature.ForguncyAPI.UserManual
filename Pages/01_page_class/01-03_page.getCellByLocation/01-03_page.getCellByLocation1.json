@@ -34,7 +34,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //'페이지1' 내에서 Row 2, Column 3 위치에 있는 Cell을 지정합니다.\r\n  var cell = page.getCellByLocation({\r\n    Row: 2,\r\n    Column: 3,\r\n    PageName: \"페이지1\"\r\n  });\r\n\r\n  //지정한 해당 Cell의 배경색상을 빨간색으로 설정합니다.\r\n  var setColor = cell.setBackColor(\"red\");",
-            "ID": "07349f8417d54f96b613f12a22c99188"
+            "ID": "e8f3d0a9453744879c7b39be1274deae"
           }
         ],
         "Text": "버튼",
@@ -90,7 +90,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

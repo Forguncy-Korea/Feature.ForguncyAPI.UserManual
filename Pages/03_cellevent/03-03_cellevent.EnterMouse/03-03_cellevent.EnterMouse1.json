@@ -13,7 +13,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //CallBack으로 사용할 이벤트를 정의합니다.\r\n  var enteringMouseEvent = function(arg) {\r\n      alert(\"안녕하세요. Forguncy!\");\r\n  }\r\n  \r\n  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //Cell Name이 picture라고 되어 있는 셀 인스턴스 속성을 가져옵니다.\r\n  var cell = page.getCell(\"picture\");\r\n\r\n  //picture 셀에 enteringMouseEvent 이벤트를 binding합니다.\r\n  cell.bind(\"mouseEnter\", enteringMouseEvent);",
-            "ID": "b2d80d9a85344c5993466750f43bf1eb"
+            "ID": "0f776dbbadfd4541b2053c2c7cd8d206"
           }
         ],
         "UIPermissions": [
@@ -52,7 +52,9 @@
     "UserJavaScriptName": "03-03_cellevent-mouseenter-example01.js",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

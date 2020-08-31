@@ -50,7 +50,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "    //현재 페이지에 Namespace를 선언합니다.\r\n    var page = Forguncy.Page;\r\n    \r\n    //이름이 ListView1인 ListView를 가져옵니다.\r\n    var listview = page.getListView(\"ListView1\");\r\n\r\n    //ListView의 2번째 행(Row)을 선택합니다.\r\n    listview.addSelectedRow(2);",
-            "ID": "d531c763b6074448a9deed329466f055"
+            "ID": "f23945242c9a4d7e9d4ff51a4381d549"
           }
         ],
         "Text": "버튼",
@@ -202,7 +202,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

@@ -94,6 +94,8 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "Title": "비밀번호 이메일 재설정이 성공적으로 완료되었습니다.",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },

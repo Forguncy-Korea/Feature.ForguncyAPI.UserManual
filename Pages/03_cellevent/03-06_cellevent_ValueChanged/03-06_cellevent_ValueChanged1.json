@@ -19,7 +19,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //CallBack으로 사용할 이벤트를 정의합니다.\r\n  var valueChangedEvent = function(arg) {\r\n      alert(\"안녕하세요. Forguncy!\");\r\n  }\r\n  \r\n  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //Cell Name이 myCell이라고 되어 있는 셀 인스턴스 속성을 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //inputbox 셀이 변경될 때 valueChangedEvent 이벤트를 binding합니다.\r\n  cell.bind(\"valuechanged\", valueChangedEvent);",
-            "ID": "72f92df64a6245748d0ab91fe6b5d66f"
+            "ID": "5232e8817b344c8b8e62095093a34d31"
           }
         ],
         "UIPermissions": [
@@ -56,7 +56,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

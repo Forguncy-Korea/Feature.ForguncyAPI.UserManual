@@ -23,7 +23,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //로그인한 사용자의 이름을 가져옵니다.\r\n  var userName = page.getUserName();\r\n\r\n  //로그인한 사용자의 이름을 화면에 표시합니다.\r\n  alert(userName);",
-            "ID": "b264298608de4a72868b01f6a1358104"
+            "ID": "a1f4d9b79d7b4bacaff7585c61a65177"
           }
         ],
         "Text": "사용자\r\n이름",
@@ -95,7 +95,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

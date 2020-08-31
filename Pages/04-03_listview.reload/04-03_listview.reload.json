@@ -49,7 +49,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "    //현재 페이지에 Namespace를 선언합니다.\r\n    var page = Forguncy.Page;\r\n    \r\n    //이름이 ListView1인 ListView를 가져옵니다.\r\n    var listview = page.getListView(\"ListView1\");\r\n\r\n    //ListView1이라는 이름을 가진 listview를 다시 불러오기(reload)합니다.\r\n    listview.reload();",
-            "ID": "8767d1eec23445a3a6aa6bd4bc742bbe"
+            "ID": "31decfc32f3c4dccbe45e845c273a8da"
           }
         ],
         "Text": "Reload",
@@ -187,7 +187,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

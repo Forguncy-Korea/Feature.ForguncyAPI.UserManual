@@ -16,7 +16,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //onClick 이벤트를 생성합니다. 입력한 문자열을 팝업으로 화면에 표시합니다.\r\n  var onClick = function(arg) {\r\n      alert(\"안녕하세요. Forguncy!\");\r\n  }\r\n\r\n  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 button이라고 지정되어 있는 셀 인스턴스의 정보를 가져옵니다.\r\n  var cell = page.getCell(\"button\");\r\n\r\n  //button 셀에 onClick 이벤트를 binding합니다.\r\n  cell.bind(\"click\", onClick);\r\n",
-            "ID": "6b6b4216fdf843cca3e024b176c5724e"
+            "ID": "b5f47f6956f046d381e6e871b7c8a63a"
           }
         ],
         "Text": "버튼",
@@ -55,7 +55,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

@@ -59,6 +59,8 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "MobilePageName": "FGC_임시점검중_모바일",
     "Title": "유지보수",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true
   },
   "PrintInfo": {

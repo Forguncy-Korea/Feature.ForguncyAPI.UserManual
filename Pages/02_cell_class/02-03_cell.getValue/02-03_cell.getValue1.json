@@ -17,7 +17,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 \"myCell\"로 되어 있는 셀 인스턴스 정보를 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell에 기록된 값을 불러옵니다.\r\n  var cellValue = cell.getValue();\r\n\r\n  //myCell의 값을 팝업으로 화면에 표시합니다.\r\n  alert(cellValue);",
-            "ID": "fa68ce0a7b4a40cea466fbc3435f575d"
+            "ID": "0789a22379294a138deb5b75dfc0dde7"
           }
         ],
         "Text": "버튼",
@@ -57,7 +57,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

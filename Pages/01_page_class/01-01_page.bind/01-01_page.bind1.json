@@ -137,7 +137,9 @@
     "UserJavaScriptName": "01-01_page-bind-exmaple01.js",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

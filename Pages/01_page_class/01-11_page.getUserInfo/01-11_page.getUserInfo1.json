@@ -23,7 +23,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //로그인한 사용자 인스턴스의 속성들을 가져옵니다.\r\n  var userInfo = page.getUserInfo();\r\n\r\n  //사용자 정보 JSON을 표시합니다.\r\n  alert(JSON.stringify(userInfo, null, \" \"));\r\n  \r\n  //사용자 정보 중 해당 사용자의 사용자 이름을 확인합니다.\r\n  var name = userInfo.UserName;\r\n\r\n  //사용자 정보 중 해당 사용자의 역할 그룹을 확인합니다.\r\n  var role = userInfo.Role;\r\n\r\n  //사용자 정보 중 해당 사용자의 전체 이름을 확인합니다.\r\n  var fullName = userInfo.FullName;",
-            "ID": "ca281095c2144d51a2238f975b86bf4a"
+            "ID": "2402143568c54466b46c886ae0565187"
           }
         ],
         "Text": "사용자 정보 읽어오기",
@@ -106,7 +106,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

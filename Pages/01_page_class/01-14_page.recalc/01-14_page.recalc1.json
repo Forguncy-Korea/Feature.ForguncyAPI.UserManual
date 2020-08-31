@@ -44,7 +44,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //페이지의 모든 수식을 강제로 다시 계산하도록 합니다.\r\n  page.recalc();",
-            "ID": "346e61459ab1424f8ee6276ccb974aab"
+            "ID": "5e8f32e2056d4140badabeceaf620f37"
           }
         ],
         "Text": "버튼",
@@ -96,7 +96,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

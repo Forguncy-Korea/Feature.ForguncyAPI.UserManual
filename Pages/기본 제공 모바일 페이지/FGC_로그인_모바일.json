@@ -298,6 +298,8 @@
     "AuthorizeInfo": {
       "VisitMode": 2
     },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },

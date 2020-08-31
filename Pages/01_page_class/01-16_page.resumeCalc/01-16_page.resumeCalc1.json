@@ -45,7 +45,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "//현재 페이지를 불러옵니다.\r\nvar page = Forguncy.Page;\r\n  \r\n//페이지에서 수식 계산을 중단합니다.\r\npage.suspendCalc();",
-            "ID": "0038babe8617460db87331c52c866835"
+            "ID": "95178673e8784f5b83a19f7de07275b5"
           }
         ],
         "Text": "버튼1",
@@ -73,7 +73,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "//현재 페이지를 불러옵니다.\r\nvar page = Forguncy.Page;\r\n  \r\n//페이지에서 수식 계산을 중단합니다.\r\npage.resumeCalc();",
-            "ID": "a8fc86804c3e496f9a4960e14dd4ddea"
+            "ID": "99cdbaf571534ee48c2f499980cbf332"
           }
         ],
         "Text": "버튼2",
@@ -115,7 +115,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

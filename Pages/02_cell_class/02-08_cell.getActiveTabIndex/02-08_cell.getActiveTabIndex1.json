@@ -27,7 +27,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //탭페이지 유형의 셀 인스턴스 정보를 가져옵니다.\r\n  var tabControlCell = page.getCell(\"tabControl\");\r\n\r\n  //현재 활성화된 탭의 index 번호를 불러옵니다. index는 0부터 시작합니다.\r\n  var activeTabIndex = tabControlCell.getActiveTabIndex();\r\n\r\n  //현재 활성화된 탭의 index 번호를 화면에 표시합니다.\r\n  alert(activeTabIndex);",
-            "ID": "6bb47b690f84423ea3dcdb01578affbd"
+            "ID": "899bf4a120a949cc916b87693502409f"
           }
         ],
         "Text": "버튼",
@@ -96,7 +96,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

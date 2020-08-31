@@ -141,6 +141,8 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "Title": "401페이지",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },

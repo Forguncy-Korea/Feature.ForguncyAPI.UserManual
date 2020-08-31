@@ -23,7 +23,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "//获取当前页面\r\nvar page = Forguncy.Page;\r\n//在ready方法的回调函数中加入页面处理逻辑\r\npage.ready(function () {\r\n//绑定单元格button的事件\r\npage.getCell(\"button\").bind(\"click\", function () {\r\n//弹出警告框，显示当前登录用户的用户名\r\nalert(page.getUserName());\r\n})\r\n});",
-            "ID": "d801c15e35c44c488c8d3d5ffbb93169"
+            "ID": "f312421d221143e3ad8e15837c374749"
           }
         ],
         "Text": "버튼",
@@ -64,7 +64,9 @@
     "UserJavaScriptName": "01-13_page-ready-example01.js",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

@@ -95,6 +95,8 @@
     "MasterPageName": "FGC_유저마스터페이지",
     "MobilePageName": "FGC_비밀번호재설정링크보내기_모바일",
     "Title": "비밀번호 이메일 재설정이 성공적으로 완료되었습니다.",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true
   },
   "PrintInfo": {

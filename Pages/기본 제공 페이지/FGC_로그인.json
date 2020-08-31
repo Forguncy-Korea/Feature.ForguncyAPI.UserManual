@@ -306,6 +306,8 @@
     "AuthorizeInfo": {
       "VisitMode": 2
     },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true
   },
   "PrintInfo": {

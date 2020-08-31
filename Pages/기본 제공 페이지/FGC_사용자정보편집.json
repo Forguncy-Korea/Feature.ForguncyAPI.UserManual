@@ -255,6 +255,8 @@
     "MasterPageName": "FGC_유저마스터페이지",
     "MobilePageName": "FGC_사용자정보편집_모바일",
     "Title": "사용자 정보 편집",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true
   },
   "PrintInfo": {

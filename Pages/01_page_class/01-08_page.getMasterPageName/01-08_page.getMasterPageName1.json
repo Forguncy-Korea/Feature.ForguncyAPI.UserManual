@@ -31,7 +31,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //화면에 표시되는 페이지에 설정됭 마스터페이지 이름을 확인합니다.\r\n  var masterPageName = page.getMasterPageName();\r\n\r\n  //마스터페이지의 이름을 화면에 표시합니다.\r\n  alert(masterPageName);",
-            "ID": "b449fd66a7f247cd94b3d8bf0e8be653"
+            "ID": "8f2c15b656b94f3ca20c00d17c32b97b"
           }
         ],
         "Text": "버튼",
@@ -209,7 +209,9 @@
     "MasterPageName": "FGC_유저마스터페이지",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

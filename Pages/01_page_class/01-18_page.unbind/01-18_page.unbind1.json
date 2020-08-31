@@ -24,7 +24,9 @@
     "UserJavaScriptName": "01-18_page-unbind-example02.js",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

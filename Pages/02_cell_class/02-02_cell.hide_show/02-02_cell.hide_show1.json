@@ -51,7 +51,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 \"myCell\"인 셀 인스턴스 정보를 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell을 숨기기합니다.\r\n  cell.hide();",
-            "ID": "458e26aea9e74370994a0088024fd34d"
+            "ID": "86b962d0714842a2956f7445ca0b988f"
           }
         ],
         "Text": "Hide 버튼",
@@ -79,7 +79,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 \"myCell\"인 셀 인스턴스 정보를 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell을 숨기기합니다.\r\n  cell.show();",
-            "ID": "e5a434d4580c4a6687c7a6671aa5e6bd"
+            "ID": "55b27451f1c648dca32d4416c43bf6b2"
           }
         ],
         "Text": "Show 버튼",
@@ -120,7 +120,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

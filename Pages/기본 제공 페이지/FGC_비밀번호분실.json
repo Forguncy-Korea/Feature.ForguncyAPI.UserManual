@@ -194,6 +194,8 @@
     "MasterPageName": "FGC_유저마스터페이지",
     "MobilePageName": "FGC_비밀번호분실_모바일",
     "Title": "비밀번호를 잊으셨습니까?",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsBuiltInPage": true
   },
   "PrintInfo": {

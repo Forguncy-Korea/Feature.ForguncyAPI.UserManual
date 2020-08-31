@@ -17,7 +17,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 myCell로 지정된 셀 인스턴스 정보를 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //셀의 배경색상을 red로 지정합니다.\r\n  var setColor = cell.setBackColor(\"red\");",
-            "ID": "de5b6fa704d946da81e2c73c3c09ae2d"
+            "ID": "da211f42b5a44b999f111040f6c833ad"
           }
         ],
         "Text": "버튼",
@@ -66,7 +66,9 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},
