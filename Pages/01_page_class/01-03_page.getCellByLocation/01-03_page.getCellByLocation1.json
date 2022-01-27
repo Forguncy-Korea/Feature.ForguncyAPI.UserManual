@@ -1,17 +1,41 @@
 {
   "Rows": {
-    "Sizes": {
-      "1": 50.0,
-      "2": 50.0,
-      "3": 50.0
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0
+        }
+      }
     },
     "Count": 45
   },
   "Cols": {
-    "Sizes": {
-      "1": 50.0,
-      "2": 50.0,
-      "3": 50.0
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0
+        }
+      }
     },
     "Count": 60
   },
@@ -29,30 +53,16 @@
   "AttachInfos": {
     "2,5": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //'페이지1' 내에서 Row 2, Column 3 위치에 있는 Cell을 지정합니다.\r\n  var cell = page.getCellByLocation({\r\n    Row: 2,\r\n    Column: 3,\r\n    PageName: \"페이지1\"\r\n  });\r\n\r\n  //지정한 해당 Cell의 배경색상을 빨간색으로 설정합니다.\r\n  var setColor = cell.setBackColor(\"red\");",
-            "ID": "e8f3d0a9453744879c7b39be1274deae"
+            "ID": "99fae84596334425aae644bed455216e"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -87,7 +97,7 @@
     "2,5,1,4"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -98,4 +108,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//MCzZAEnaLytnkYhnp7tfgnv7bTrQnbk7n5JXXJt7vGkzcEQzRv7Oat+M6dssSTR1Bqs8l1WQFJ5aBu+11O1MHjtlR1IQ23suu3xiJv8acnF8lSqazocD5uaRQ8kuDLiSVNAoNVPC8/0IyNFUw2C1c1Lve9OfCdJ3BwIcbuB/s9/pzlrYVoXPeVDkqzUhaypjmE7ac+5tL1OskkXaiC/DW8yoCCgBOwHEo/JHU34g+SMpjPUS2sbbvHMOrcH9Uv6QYEXU7C8RxsNOnz7c1aFfwvClHFbrbHlsQmVJJGkzGnS4cvz52IyWGSdOCCRUmZW6lGKjHhHTdImSqVokcqSMjkcvaQYIgU3CJJhkB+G/7aC1SXHF/hf2SfPRVAMdoY7G8R82Pe9KlIPbPVFclmCiA1i2ZDoF9QI46U0ObcksNmjlkYZdPmymnvtQlTKTLWgUrJttjhaNEnN6+uglNflxN3lFb30u9KU7AtWDVuMpY3tPF8+mnhu5r8VRYME/NJP4HhWyHsgSsDNissv8jw3lfr52KF/j5WYI8/VyVuYr5CVpgekrWvEPwPvEKO2itsF+YrulU0oWmvGJBIUrNTF9TrsllNqpRq3xvQ8AwXw5o96wWoD5uhvd7jdKjVbo6NTB+sqcmuXIKOD1ievDFSgHbyE9aJTHsLUs9TAGPwkiYMDrlrCu3C+ZgCyTcQIjC52TlrUESEb/2Y/iFnxizHE6H4nmwniZzBNwCpdE/yYXY3FAZ+N7iVzL57yKN5e9h6U2vM0eMi5kFFlqr5i+pol7yE/JHKWzKVTnky8CZLR2F+y6WCESH9ZfYSkvl1k5324/6Dbtsv1O/feadOl6AmOFHK23vdkwYQWW9uHPsfEYsb1f6fh7pgfiPQh56ebLFLfL9yp6TYnkpKaoQQW2KQDzwg==|920

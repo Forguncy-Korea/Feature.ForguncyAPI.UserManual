@@ -12,36 +12,22 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.ContentContainerCellType, Forguncy",
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
         "PageName": "02-09_cell.getContentPage2"
       }
     },
     "17,1": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 container라고 되어 있는 셀 인스턴스의 정보를 가져옵니다.\r\n  var containerCell = page.getCell(\"container\");\r\n\r\n  //container셀이 포함하고 있는 하위 페이지 객체를 가져옵니다.\r\n  var subPage = containerCell.getContentPage();\r\n\r\n  //하위 페이지의 이름이 '02-10_페이지2'인지 확인합니다.\r\n  if (subPage.getPageName() == \"02-10_페이지2\") {\r\n\r\n    //하위 페이지 객체 정보 중 Cell Name이 myCell인 셀 인스턴스의 정보를 가져옵니다.\r\n    var subPageCell = subPage.getCell(\"myCell\");\r\n  };\r\n\r\n  //가져온 하위 페이지 셀 인스턴스의 정보 중 값을 화면에 표시합니다.\r\n  alert(subPageCell.getValue());",
-            "ID": "958c08537b9a4345a92574a90bb97ef8"
+            "ID": "599b6f9410f04d3194be16384ba0a52f"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -60,7 +46,7 @@
     "17,1,2,5"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -77,4 +63,4 @@
       "Formula": "'02-09_cell.getContentPage1'!$B$2"
     }
   ]
-}
+}//Zgpa05TVOYXen3ZqnFGWFryjolpPspFNS3l5SQMlCnu274qGeYsAHVqCzpHtZHlAio54C3fPTb5+MZOv+gSREoLq1SblCvfEN+IcxxAL+XTzxRu2Y9q14o9eSNfsjF40Y0fYnzs6UaoXoK+XM+BU7R0ixmZh7y8aKD05ZpyhffJwhUjnSpKHeCdpoYtmp8Uid/hvPLS08d6Gfhmj/8wLGAa3VjMdtxtuHlY3IOkw+DN6L4BFttLkxbFH8MIaTy8TvMn0p4ZIvNWUsrEK0EWf2dBi0jRqeBNWD/geJSNPGq9mikJPNKa0KUEJxtHlXOAb1dvoo7EQrLIS7toT6UPGNrLFFEoytR3f8LQJIl6HrfdsASqEqpOL72rWHwvpY95g8rIpRFAgGsn1fW/DhJPeb93HQnslib8BMV+OYjShJv9ojSr205oz2rVMzw6JMA8+0piyYoWqbuMEaLJTV1iqTqaFYmB7mt0nM+oMouvZFtyuzl2+Sxtc2oUIPKTur0YtCeptp4YQNzOpf+5nWdgJ4Qovvep3UfW1PMTW5En1Yes0dydNpIWY7e/tJnql8Jz3pTWH6Ak6c9oiWNaPjdiuS1XcOdo4oSSnx+DBhckklwfZAfOsm61siq0WHW1Kk8sAuBEmtLIdYp2eJhkYN9GLdQYcx9xCiYDMLM3BdnUDvKfDtFlRfgaXtb3ZVSwsDVPdLxtsxxhAw6C6zdc+zqESPBjquSOShuN1vP4xQ2xEtp3oyzIbAd5AJa2g0YiQHFavLSfwJleY8qrnBZSojZZbIz2ElVD/ToDnQae0x2avIkXTIxrZ0xB1gVxcnHMjLkyGMcj7/gpef6SNuRHXpe3AmYh3RoerpLyl+Cqy2EOgkmITjiqtpD/Tm5lhyItVFy22QyCkjs353rvYOzS7NdZCmQ==|920

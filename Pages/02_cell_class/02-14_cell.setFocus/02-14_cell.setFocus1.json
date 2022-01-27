@@ -11,55 +11,27 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
     "1,6": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 myCell로 지정된 셀 인스턴스의 속성을 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell이 Focus되도록 설정합니다.\r\n  cell.setFocus();",
-            "ID": "c781ebe04fe9494aa015ff22b3bf95e9"
+            "ID": "367b2d7b7f234d079fe746f487265ed6"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -78,7 +50,7 @@
     "1,6,2,5"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -95,4 +67,4 @@
       "Formula": "'02-14_cell.setFocus1'!$B$2"
     }
   ]
-}
+}//Jj+yLzOAqKoRGlLLDb7pVJjQ5nD8ZZzKOAB9nytUAm1W4z/steg4K6rl5iXl4Ksm8e1LGew+AesuFybNUT2nk9hQUavNwzILwatfe3q8Mn6b2AmoTQ4bU6xHAaBTbVO14v3ZlKy5FwkSg+6ZBUPbsb1PK43TBhV6VGRCZ7u8PQwZ10MOfJThx3s8kKIy71EYAkGO6ld28kG+iLOPjOfyloIebTxSEhxDFAcmkG8mopQo97gvZsfzmGLS2u0/zbAAqOD8aQV8ooGIyaXmcR8jQ8NZuZQGNcJEKS+d9EUsaJzJee8EhtRfkDczqjxnq+7jLXeTLqRN/NJCU2qXiLqokqGbOsRwxt/RBto8NoTcpFn7bXmsC0fWFVyhzE0lOUIvw0PsqCrkOavHPCuKrCTTFPHsFfDSRI9w83Q3bdFByJhi8OHevXON3Q4uUnDVMQGzD1ASO6OTMAJGKNh/z2vhuRU0gADSJC2E9AaSpOJKDuVQso6bjusqOwsW7xhTK4SCpgQrXO0wMdPFqeReWLPGBqrciMUlwV9cZdQiagJCa2FUU48tEsu5wn5JwtilLWNSBXZNQbQrh4lxm9PK9OkjdNY+aQfeaArRUjrPrwsSHKOWTmFS+AfqFr0Dl7OVzYw/u90mhAaglgzqIPtCiCEis/4kkFefRptcj3geoMWPSzBYTNfJmxwKeuOTdNlRmR29wqUYkf4d4XG3mjVGpiKVISBL4oe2PwV+LCo5fWyVR26QIx7UmVun8QjZi2et6yFnf9+AwMmMg1rj1EmL5fiAVYctB8FgQLxTRlWnEpWdJK+D/sSPDahWz46mgmhfSbW5pK+ANH2BNRVvXH1u9BuAoMNUIwf0O4TeQienrF2hwKrjkWN04iCQVwvSlEXhIvo/7YF8DgQodYTm4LVZtn+1gQ==|920

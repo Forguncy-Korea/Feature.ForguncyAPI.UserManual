@@ -3,9 +3,17 @@
     "Count": 27
   },
   "Cols": {
-    "Sizes": {
-      "4": 10.0,
-      "5": 10.0
+    "RowColumnAttachedInfos": {
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
     },
     "Count": 19
   },
@@ -19,31 +27,17 @@
   "AttachInfos": {
     "2,4": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "fgc_logo_dark.png"
       }
     },
     "10,3": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "Icon": {
@@ -54,39 +48,19 @@
         "IconSize": 18.0,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "WaterMark": "사용자 이름:",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "LogIn_Username"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "13,3": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "Icon": {
@@ -97,102 +71,40 @@
         "IconSize": 18.0,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "WaterMark": "비밀번호:",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "LogIn_Password"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "16,3": {
       "CellType": {
-        "$type": "Forguncy.CheckBoxCellType, Forguncy",
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
         "Caption": "로그인 상태 유지하기",
         "Style": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "LogIn_RememberMe"
       }
     },
     "18,3": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "FGC_로그인",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "LogIn_Button"
       }
     },
     "21,3": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "FGC_비밀번호분실_모바일",
             "PassValues": []
           }
         ],
-        "Text": "비밀번호를 잊으셨습니까?",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Text": "비밀번호를 잊으셨습니까?"
       }
     }
   },
@@ -294,7 +206,7 @@
     "21,3,1,13"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -307,4 +219,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//sMX/JH64gYi1dScqO8cPl27yuTSUqfQMnr8dAZPsmzK1onIa1nsBwVc9Xmxnil+mA0Tua9fPKPxQvI8zm5L59lfQKqDYYzo+xN+ecbQThPAae0ClUT/K+KXDJIrehQloIzeeZD44BFKZQ6jpJEcwMB516Gd4xdrpQiYPjQKUi/IFP67tr6LMEKoH80czJbr6zlJ4/bEwVCgJib5VONXFqEGUjwp8x+oc4O3SiZKApd5sU6MJrSViLQ26AdAniLXHB5f2aL+mXJ5Dn5t5Tc1NhP9PRC1aZwIBuvUEwRTFJE7Ompqr/pIx3jzzI/FME+jk3V5GVCi42I4HGgofEuqwDr7oqnwINnYWlzqv1PS0ZghmP9ayomRkNWgJb9SCWgfBw7/dPDDUHGT8fOiP3OKPo/REBDcisU23Ivxx4p5zQ8m5CmXLTUGxpXQBgMGa1/cRNihTcj/QFKmIG+vYb4hm4V3lHjfjU25f+K9xvdwMTHo9+RCLWOTHSz18awH3t/AWq2IVBQC/E1qTqIIOXPaf6EWES97036YeKxO/FoIYXAKS1tYjHKOCOfaP31/8lpBstrcyRqciimYoYLACKqqeT3qOs8L6PwvCCk/9PDFJAsQ7CqG8YJ0YZKKGn7o2CjgyP+ROJF+qD2LKLAebfvNXnLNFv7dFxXne9i2uig97VlE7MkJmyvBUFipJ0FNkm+WUDwAFZV1b7Bmy2n4GoECE6Oyj+C8CqRidq3Me77AYaFSyA9q/m/QMweP0E/4WbGZ6IWaWXs82G/pAaKXdoT/YqQgGedFl4cGsI6vNSV+ko7fov63TG/ILote8oyj087FUae60hf+3lZmSYxFWwTUytrJUZRNrUIisBm0NPuXVtNZ3HCpcpZKjS1RzrrtX+aLflE1d1n0WRHYx17HzMofOuA==|920

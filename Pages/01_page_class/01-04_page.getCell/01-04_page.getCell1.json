@@ -3,10 +3,22 @@
     "Count": 45
   },
   "Cols": {
-    "Sizes": {
-      "1": 21.0,
-      "2": 21.0,
-      "3": 21.0
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 21.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 21.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 21.0
+        }
+      }
     },
     "Count": 60
   },
@@ -17,35 +29,21 @@
   "AttachInfos": {
     "1,12": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //페이지 내에서 myCell 1과 2이라는 Cell Name을 가진 Cell들을 불러옵니다.\r\n  var cell1 = page.getCell(\"myCell1\");\r\n  var cell2 = page.getCell(\"myCell2\");\r\n\r\n  //myCell 1과 2에 Cell에 Forguncy라고 입력합니다.\r\n  cell1.setValue(\"Forguncy1\");\r\n  cell2.setValue(\"Forguncy2\");",
-            "ID": "5820354cd52341b79c4aee1b766ece0c"
+            "ID": "87e1ba3b32c6425da3a1fd82f004becf"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,1": {
       "CellType": {
-        "$type": "Forguncy.ContentContainerCellType, Forguncy",
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
         "PageName": "01-04_page.getCell2"
       }
     }
@@ -92,7 +90,7 @@
     "1,12,2,4"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -109,4 +107,4 @@
       "Formula": "'01-04_page.getCell1'!$B$2"
     }
   ]
-}
+}//s+jji7b8WIscw3o7eANosDkbaNU5E8rl8SsTg9f6i8bKbjGiehp5wFihA5oYbmU3Weh9lwq22xy6tX4/32lgn3QEEiKij55oUykACJrklgmymNunvL4Z2B8sxCMay/EKCsaILEVwOCDQEtvSj1aG2l5+dMeIdpsxX4zTId22g6dRgcNfZbP4Lwm2buyJgUd0X9wbWXp8YTqBS306vwIpmtuFe2wmJJnZXeib692ctMcDVjzdZQKdz0Oy9tJVqKy3Yn8q6IrZ8Fq5v85gchIxkoudEKm4j2lBJ69w/NfD5UY2QD8/3nJmMV4jRRS4xaAZIXLwuLV6A73I3IyEMblJuo5EshA6kAMcfZpKz/4OjiyB2RQxaVduUCICoF0INNnWqs269lzSAMayaTpcBDBw/iCDGQqe/rD5bIrc7NhFgFOq+/Hq9PtU8s+7+Xk1cI68BymnvszkGywQxIlL/p03do43HTseSFKRaBdzspqJlrvwKrYIApJTcdfESNdAWklogTP+ekctHLAE743+JeIiTA02ng2xmxlZm6M+VBQqsqguuGfe2UWmmmwkoUsvs/wncT5XEbGZh9nUrh9VmUaO18WFYzxDufX9A3w0ZOuVkr2PwUBPsDDErlOSq+2wZUv1S7bX00V9BnEHOfGbzx4we0wDIGiO4H301uVvIGH0N7NmPfkYCf0VODeYYJJuLnNqdoR7ESEbg1XXcTr8SLgwXG9M1eSIorVOr4822qJBUKvLNjdPhqWXrnElOPYdjuA5uj94mUq11rq9/PjFsrk9Hq5utJjZ0JChO/AKHDLFx55KGXZ0YXn0kNFLPbedNMngNra+USUIk78IivWea7Y4/wGnnN7SYgWveUDQ6uYWmGHzTeV7h+y7z/eqLofCVOxnGdqWtBh0MDcTNcdJ4KLF7Q==|920

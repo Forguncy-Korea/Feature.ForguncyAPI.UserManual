@@ -8,32 +8,18 @@
   "AttachInfos": {
     "2,2": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //CallBack으로 사용할 이벤트를 정의합니다.\r\n  var valueChangedEvent = function(arg) {\r\n      alert(\"안녕하세요. Forguncy!\");\r\n  }\r\n  \r\n  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //Cell Name이 myCell이라고 되어 있는 셀 인스턴스 속성을 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //inputbox 셀이 변경될 때 valueChangedEvent 이벤트를 binding합니다.\r\n  cell.bind(\"valuechanged\", valueChangedEvent);",
-            "ID": "5232e8817b344c8b8e62095093a34d31"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
+            "ID": "18c4369a3c3d42028075349b2cb984e3"
           }
         ]
       }
@@ -53,7 +39,7 @@
     "2,2,2,8"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -70,4 +56,4 @@
       "Formula": "'03-06_cellevent_ValueChanged1'!$C$3"
     }
   ]
-}
+}//SLfhYQzYgXYgP0AVwfDo4qWf2avUEeFf7B1yTnZ7/tl+x6sQMHQG5fRAKlTSeS3yF1cPu6HEDLVkdLPFzEXi3Bj7B5KNpntkoXs5d1gBXsOvXiTqsXJkaS2zYf6jxduK/aDV2HVnPVkNS2qyZt9/+hxjN6BRK6OzIVHxnfVTlt42WntQjMY0xLt7GKZq4mXPTKFbmxLe4S7uQfCEK9sthDvMgyUaETQli0LLsI3G913TDuj5FNh+LRsXJ/a7/zfDX1VYgHmQjSNJcGbAgAipmqUTzPXdl46HjCnNFZMeYvnsHljHtBSPNeBpy/HRDmWbjCje1dXKoOcdZBeIuwh4eFTgSdQh54ebNOpLcr1xob9QJV6/cz+dfE7e/nD5dZ4BAlrb5er04cs5vC6Y92NCPAuKb4LpBOi6kjGYZi+WFnHVEyS71eqCUGykW9cWdpUSa3ofrJFf9V6ZBel5wWgDn2DrEpmC15onbvKU1rJJb+cIcnL8DqVsg/l81Ky+GkWFIdkLBaoubkW1hcwOkhzgw9IoMUbv9nEIf4qA0hP1tp1t8ovuOj0Z9dxoKBy3IQFxb1EAlr1rxNEmvlVN5ltgyKkRPw0Kiwv/8ZAkawN1LSFZOdbAAGcOPUQWAJLHBHY6UOfk3Dtrgq64IV8A4czxALOTo8ekMqXyV3VYDIYuxanKF6gJRBga0wBNdQPpLl0oDQcqr0BhtQQuTCJ7jTG8mG5Yx3n27r073ckqdppoSNJLWO3wTaTPabU9D40PJOrFd7bdK2BPTyyObr9l559i6T/avQfm7qD8voC32Shd8a8wm+Os58m3ypOF9FihCZKuGQ/BTC+yB1jxjLmSCFtFHQvlUD+yzK8Z6y4aOGw4sPGdbHZITzhXKi+z7tO1RVSy+EELZrlXbU6b0ctYgj22ug==|920

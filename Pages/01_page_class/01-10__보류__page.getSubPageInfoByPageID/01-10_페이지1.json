@@ -1,7 +1,11 @@
 {
   "Rows": {
-    "Sizes": {
-      "2": 50.0
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0
+        }
+      }
     },
     "Count": 50
   },
@@ -15,7 +19,7 @@
   "AttachInfos": {
     "6,1": {
       "CellType": {
-        "$type": "Forguncy.TabControlCellType, Forguncy",
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
         "Tabs": [
           "01-10_페이지2"
         ]
@@ -23,30 +27,16 @@
     },
     "6,16": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  var pageID = this.getFormulaCalcContext().PageID;\r\n  var pageInfo = Forguncy.Page.getSubPageInfoByPageID(pageID);\r\n  return pageInfo ? pageInfo.getListView(listViewName) : Forguncy.Page.getListView(listViewName, false);",
-            "ID": "d91b6d31808a497987dcec50bcbbe1a1"
+            "ID": "96b0f0379c5647ec912520876cd779a4"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -84,7 +74,7 @@
     "2,1,1,58"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -95,4 +85,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//EDTyQf1OvUGvhotK2eZ5oDd1zxY+E08evypTjlaKeTcBNt/8U4uK+E7gNHLYltf6JBA53WGqlFJnyJntR6HZTP6MAdJDlpm63aHeJw743LaJJcBiRf/t1JD9NAclCKFe+ybPRWFYW4dVPp0uCyTkb9Xsvw0uMJtshgHVUXsXIddln7loYXhUvXEEt9tD29R6n9UVGKiXNVQP+BRCS+qQUUIZ/qBiBu7s6G3Ky5w5/pU8jol8pxCIykEc004Y3LejLaLvyn9H09uSNXfyIj7DaJa1KQJuBzFW3qsJurKHFGTwq2Ug62d+w3jVw7QOUNgRs9WhUV344Spaxdb0G6mUmAPonLXGlwt9Hw0tTOHPgZR/QXJOwjW/gJ2hdW4zZhYZot93J6NK/Bu8aOBLs2YeKIQio2GCwXsH6pqjUTzIl5QzUUM3uZsZ2tlWkMNujSaByOvDOLL/VJvVJJUj0N6tJQQ2TNTAFK9amfv3DCWKscT1HYaVmSNA7FgJlKUBPL8J/6My0X32hv/ooyG3NvDARlQzhYyrbrsEOZa1iCxXFaGLfL7eFeHa9JEwpChBlIead+TABut0y1DTmchu+yhLCvkCc2UoHj8VmAdMMxoMok7CayzaaDXH0E2EniPwQcdL8o8znwQXvC6vLbLfZzmo+vn6AYszsExTWe7WoL1v1D34gxeLTGaIpL6N0uP4KW/sg7SrcKyvWR0SVlbV95R0LA1gmHCBg5o2MjRGVqGU2nE+wVRa7nK/PEyCLME5inJjKeroW1AOGIgg5Dp0QHIqtIXzcmc3Srh+Cv8Qyaf3MdGy09xI1YZSPrmn+PUHD7Efhuv57cQ3bjK/+63wA2woj+5ROZraZ1LE5HuXmyf0NpwdGpDQjy3ZKXc9UwCT9kCWuIUAZkclUBu9zNXXSyaXqw==|920

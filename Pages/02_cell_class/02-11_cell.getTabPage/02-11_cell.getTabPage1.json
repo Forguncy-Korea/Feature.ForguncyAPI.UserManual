@@ -12,7 +12,7 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.TabControlCellType, Forguncy",
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
         "Tabs": [
           "02-11_cell.getTabPage2"
         ]
@@ -20,30 +20,16 @@
     },
     "17,1": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 tabControl로 되어 있는 셀 인스턴스의 정보를 가져옵니다.\r\n  var tabControlCell = page.getCell(\"tabControl\");\r\n\r\n  //tabControl 셀에서 index가 0인 하위 페이지의 객체 정보를 불러옵니다.\r\n  var tab1 = tabControlCell.getTabPage(0);\r\n\r\n  //하위 페이지 내에서 Cell Name이 myCell인 셀 인스턴스의 정보를 가져옵니다.\r\n  var subPageCell = tab1.getCell(\"myCell\");\r\n\r\n  //가져온 셀의 값을 화면에 표시합니다.\r\n  alert(subPageCell.getValue());",
-            "ID": "37af6f0a044f45b1ae5476a50cfa6302"
+            "ID": "394e51c260954bc9a98dfdc8e876a24c"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -71,7 +57,7 @@
     "17,1,2,5"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -88,4 +74,4 @@
       "Formula": "'02-11_cell.getTabPage1'!$B$2"
     }
   ]
-}
+}//9S42h5TTS5u1sBSZS0+leQSx4qpANVeEUAHH7sUD2s4wwziIiVJr9N95XvKzObRseq2BXDJXaHsbnF/fzo59sXVyra2niR2V7/fyALuYzAjJEBji4np4czUCIRx/knwRmQDmhqJNwPym57xVCDamddKKfwWq1mZ/HtAsn6k9Fz0hlEvX5HWjlk8RQXDSXVSrKc2j35xBtmrJ44FMF6Vsze/mWc7AKalM8dr1vneQJalISFduo5jfcTC1ncoSKZdHUmnhjUihG3BAIC+QID79GnBtXYlrSsZd7ZbYnk58V0CGVgrxP/X4hgxAVOCeH3zUGVSC+F727Kolm2sD71gF78LUjqWeGM2Kk8Tc0cXRuaheXZ5IPlhdis5KZv+QLnTD6nvAUk9GRz0CjHldn2ouHFD37vt4L8emt1Jkr9CLyubGJZxzgTW8vTlpGtCwYc9U0XJ01x9960FQFAI82t0DhfyLaHPkcQ/8av/dLHsqoDnxNbV7gpMtvWc9s9N63FlTLd59Vx9om04bBROFIolQ/M4KHJUPLe2U1O+bJrErjVsGwX3GrUHOc8vkaH7VCsF7GiS6xYOTX+gO4o3bWsNjXVLuYayn1qGZqwkFK5/N/Lz7FWVaoSSgkBj6eRCaG1h+TctJFZzpnoSuvFHpiqEOnOFN751X34TDZ9pMTQj35pZIaJN62XxD9mgFZd5+2M1xijauAbS1DDabwc4aZFJu0ZjM90wv6hdAHO7UIL84xS+9ij9Ojz/ViL9EDnLhj1MLDdQ6CMBlEUqdmyu1or32F2dm2zE3jED7lWVfK10OP3fSu/TNQmt7TcEYAOq+CGNilphJBon22MIDH/k1Fys+zrZ7Q9LusmHSJPrJ1AtwRh/kxlt2yE1BOJz0HNdxKkfHBHK9Dn3NHsaMpi0C/JMuug==|920

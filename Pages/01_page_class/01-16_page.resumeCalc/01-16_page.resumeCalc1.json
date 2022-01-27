@@ -15,83 +15,41 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
     "1,8": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "//현재 페이지를 불러옵니다.\r\nvar page = Forguncy.Page;\r\n  \r\n//페이지에서 수식 계산을 중단합니다.\r\npage.suspendCalc();",
-            "ID": "95178673e8784f5b83a19f7de07275b5"
+            "ID": "dcc964b27cfe4f3497e00dbf63f23b21"
           }
         ],
         "Text": "버튼1",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,8": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "//현재 페이지를 불러옵니다.\r\nvar page = Forguncy.Page;\r\n  \r\n//페이지에서 수식 계산을 중단합니다.\r\npage.resumeCalc();",
-            "ID": "99cdbaf571534ee48c2f499980cbf332"
+            "ID": "499573d82dad4c33b7961c2fc8b418e9"
           }
         ],
         "Text": "버튼2",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -112,7 +70,7 @@
     "4,8,2,5"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -123,4 +81,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//ItKVWcqat4vfZlKJl3LNYx5/F344OYJu6OT+1cl/gcUvToWpZYCMGBWNdnUHM8NTNLosLlrEiZtlAtuOT3SFHQa89Yx/a0K3/bTvezEYM2x028O3qW9SVF8BAzqT3cVUUGkfKrGYwqjK5qyYBVe3mAjM3IL66pxr3NyLg7eCnzEJnGOe3eE53NP2A/1Ic0v6++M0tEguFlpZnizcyrPq1/IwkNtpoQvTAR6aGy7nGLyKPHPEZqfawa8swXkTrYxiU6UCONrx3SSuSdsMFbGrUE2d9WZPanmfMQP61zbrwU1QpZ1lZWgdTmFEHPetE465bMMCEWuoYSCwZmhXrbTi2qTgJuZ8CiYGCKQ5nlq9ZL6rSPL9HSgXJfxL8UO9mGz2Ec2VvyQcg+TaR+A4PIIEmdFaexcZXxUSi0eGKG91vkSTtil3o+6yZpqBQhJk/f//BR8RcZWglTpmmeCa94OWrr8/EuhPakkwLCS04N7xI1nRCVp/2d1aYaclqACgcZKVNbBqKn/qYNR7VmtARdbw175y7wUA9wcfbyKbQitaXRuyrZghBKtfU1zlhO3jTyWPDqo7n773xSrn6I5mmDjOIl8yO6Xst1JmJK+0RMcy3qIJHmKVgsEBdih1hZIInAfZwozWEsJCEH99XOQV0a56npqAzOGlOn0QYlvulSgiuRgxCjSh1H5aw0chvADS/hYdh9n6jxxLHaqvEYyxyxAoovBeXrOBQ6SRuirlIr6+r74FAKht0WyIh1NH/bfhL1yAHujXpyjuEybELL7LhNA4MD6BBpa7Jqwj3AHb2qFq6g+izb4Q7+1zSUyjkxhVjO+qEzBnrXm0zQ/rPkFoFGjhYpdimzim7uNJK11JPLELpEm+FxchM9VpHf0Nsd3g7Ov6kLIqJ2cc9xMXPybYVEkjPg==|920

@@ -1,12 +1,36 @@
 {
   "Rows": {
-    "Sizes": {
-      "11": 7.0,
-      "12": 16.0,
-      "13": 7.0,
-      "16": 7.0,
-      "17": 16.0,
-      "18": 7.0
+    "RowColumnAttachedInfos": {
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      }
     },
     "Count": 30
   },
@@ -26,124 +50,56 @@
   "AttachInfos": {
     "11,22": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ResetPassword_NewPassword"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "16,22": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ResetPassword_ConfirmPassword"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "21,25": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "재설정",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ResetPassword_Button"
       }
     },
     "21,30": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
             "PassValues": []
           }
         ],
-        "Text": "취소",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Text": "취소"
       }
     }
   },
@@ -238,7 +194,7 @@
     }
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
     "MobilePageName": "FGC_비밀번호재설정_모바일",
     "Title": "비밀번호 재설정",
@@ -250,4 +206,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//YTepaMQzXHkcpVKyQoN46Nx9OexyHB+34Kg/H6SM0dyiz+O+hvLlYzmFksPmC9cpz4vLM8fnWX68N0j3tXxbe9PaID4z2a/qKxbf/X5NcBmjOSPBZMTv6vEfAqnb5xrxWdRJXPTk9/Y4EoOYBUzDAVzxXd/0MwVQaNmJh/uwgKOCp2MHEAproZleswuoBHGZ1TVtuO/a9y/BvBdpNDEyrtauDeLBeYbGNKloMnif+QSqmqWZ0s8/5WCdV+bmoDaAL2A2UmaCf4L7xkn4oCmtgPn4KWxsd61N/e82RHK/2zm+VXXI7vQc5XeWRf2zWM8v0HlXCwzeONK753vTC5yDOAdaKGJ7I6/JhMO+8xLIzjXKsYebmsdJwRiTo10ry42GY0bTx/zKvKP5K0k4lTEwGaVwNj3GW7HRnvt8OcI28S9BZdU5aubM82lVPWA2WO3nxYH8jmi4O+onmukZ2FDyHwl+7cH+KakyvvTy0740u3+g/6X4lHRmri8zCmXtGTG0/57+z2mgXDIBa/njgmjw3NHFHjwoLP90irIFWw0qph9IJGXxLjcYDoxMso0nImOW545nDDjON6J1pcS6R9K+PNDrIwqQY6EMEHy0Ku3xgAGoL+OtE3teXlTpgksPojn0j1edwXuJgBZ38iuoiC2KdzsjYfl5bdexovbRFm0DmIEnvFtQthgs08FzVbZm5lrRS+yoCXN8fpcZU0pNTfWJyOiAQUtv3vFlrG+6n08jlsylmXarQBa9+p4FNG8CPtQyWrmQHua4TZsmidSfpmX/H1t7+eG0VezTfe8l5lJDAPAbwl2XGzpVdVK024S4cRKoMaVBzGKY9/hkQdlamUlaC/41pAQR2XMqES9OxLKrkB+qCyB0GHZOxSSpEkeunuhYAGiK9JAI46qubQIq7A74fg==|920

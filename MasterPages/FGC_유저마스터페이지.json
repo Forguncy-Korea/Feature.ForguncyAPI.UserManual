@@ -1,0 +1,63 @@
+{
+  "Rows": {
+    "Count": 38
+  },
+  "Cols": {
+    "Count": 55
+  },
+  "Values": {
+    "30,4": "이 페이지는 Forguncy의 내장 페이지입니다. 필요하신 내용에 맞추어 변경 및 수정 가능합니다."
+  },
+  "AttachInfos": {
+    "4,4": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 12.0,
+        "Foreground": 0,
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "30,4": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "4,4,26,47",
+    "30,4,2,47"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Accent 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Name": "9d382752-f3ea-48a3-bb53-d6d47ed4c55a.png",
+      "Location": "80,0",
+      "Size": "940,60"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//Ln474e4zcnSA//OM12SV5HEM5D46W4qmRFWm+uFS7buDVUikLaIgjSA3UGxkqXwRpKXmIlx4Ngcb2KM1Xwp2m3x/jytXoH/9F5jmQy9vDpNgOjH5ywfnQHiDqys4KnoMCDxHEfYCk9p+/bTyqBrsajPHsZBkqbibZYzAnAsW6MgCFGx7RYJ1FGnz/tbeN9gytcRfnVDShn2r+iblBmDVwSB8JZBG/yl/z4PfQyBxJnoQ8pLJMCfnFzZFb2k/Vn11QHuy+BzsCMzJ0fmhDk5+BPW6AtvKasst+rakNwYTB8JulfdAMJqXxQCNcrJxdytORSTzNUG2Uodt5F4TJaT0ljzD1MVedyDwJs2rnz+zqzGGJrUi8gavTS2ot9uS5w+/BWTtuPAVY1LT2naBuipRCP+75pyKGO3uUunZJp6BBTtj8kw7AnCh7T58GmOMBXHDzqxEAZRSuG3TPFTZfaYBNNyQFuM7ywZdy0bJgPdrmHaOicFXvoFnzEOwBo+JTyHX9gLtJU5v5WrlhISeb1fss9yvU4gQDneeyzKtu6iN565pQs/F02Hp0yvgSEfzgKhyCkr06cIW4COyWjhwg+8QvKHAmJ84JVf0KlsKYxImHcRT35JDYbZrpx4TUz55z30WYVoto7Te8W/68qdMxilzg6piq54Acs95aH1yF4ft3xZxqqfRIY2TyUI0cw5G9P3ryg274+3bdh1qbmTv4nqHJ54JUm9O5Y9pkJo+VdUHmszcNS7xxpUf9TCv2llnuoMlxLpATJCANYh2t7LO0ETVdsKYkU8ppbqVF0qNJVURVgioRanOByVjiUsskSeqf+L0NYNsoaErjWdhB/gqtRzzEquRH15khn9m4ZIjvEwU5+dido+MthEVCuNgqKkGCWGO0cu14BPhxiqmPUqBm5aoiA==|920

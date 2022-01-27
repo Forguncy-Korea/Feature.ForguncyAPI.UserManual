@@ -21,22 +21,8 @@
   "AttachInfos": {
     "16,13": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "Text": "로그아웃 후 권한 있는 다른 계정으로 로그인하세요.",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "401Login"
       }
     }
@@ -128,7 +114,7 @@
     }
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
     "MobilePageName": "FGC_401_권한없음_모바일",
     "Title": "401페이지",
@@ -140,4 +126,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//B/Fl9a6YX8FUBl9+cjfMKbYV3bndPKfDATCC5Tgmi1KHIpmEspbIJ8hI/r8oTg4w1ew4XKpDGd95bQNNmCCLCd6mQLUqgiFo69XDUeAm6xTHxdT1hQ5gFMRCGK4UuN0aRHoPUzGo0+YLXSqK1HKq4QB+OgUYWBDbLBh5mMuWrkk3I3tT77UaD2Ip+tVa4ahIsf1qtGy0trbuLkq7QzDvOGWnDM/IM4kNEwrR0zKCQY7ewQfsLhUP1LlBAJQW9nZm0tmPbaaNrsQcCHOv2P1cL9JWlwFH1VF0mNGcyL+5cMEDSWRaEoLaIzrBEkC0KXnaxB7WY1WUbPFjVaAvjA1jqGC6TnhqK26B18SSpN0mOPoeDxmLzOEFhQcD7Xks6+O5ZXcVuYqBeBK2MowEtSMRI/AiSQu1/vP3Ri/3FBoxVjSTt5WuUBBXrUwebHNq4BO7ZgNwllD8FXfzlLZ8Yo+Fq5dgsSznUtLyF1ypgd8zTlP2Z2YfN0XWmxp7CGcpWgh2njGSB4P4HEY7zLsnqJ3HRd/zZbdvJsrSBsG/fAlihbyIuV/3IR8HDeouwTk0GwriutRmCwsdAS3YjHNrCZj5kE+lrHTkKbCQphmNdRyXhaZldAUawS2Zq6CqtLr2HPj/1XvzK5zNnLQxkLuMRSnQ+u6PAhelHjy4r/IfI61E4RutpPpEklFJsI1nwkHhDGtJsyamFffcntIqerjpIH/SPdpPjCeGX09skhEJbhgXdqagTj2D6scRUEiPiFxE/bcqmmGXIJZUxjIb52SLkCe9cf/xfLmn8TI4zlgTE6fZ2om5bM2pYImz9T5edCNkLmzKu5eBTPOKBNGrOAVgDaTgh/TITHhy3cETEYvaixvVP7Gw0ffkazv6mXFaOU2kdXryOZ8MZLeKU25O0RseWvlm4w==|920

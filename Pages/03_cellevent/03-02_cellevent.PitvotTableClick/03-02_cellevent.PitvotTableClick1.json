@@ -3,8 +3,12 @@
     "Count": 45
   },
   "Cols": {
-    "Sizes": {
-      "18": 25.0
+    "RowColumnAttachedInfos": {
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      }
     },
     "Count": 60
   },
@@ -44,7 +48,7 @@
     },
     "9,1": {
       "CellType": {
-        "$type": "Forguncy.PivotTableCellType, Forguncy",
+        "$type": "Forguncy.PivotTableCellType, ServerDesignerCommon",
         "PivotTableSetting": {
           "SelectedListViewName": "ListView1",
           "Rows": [
@@ -52,7 +56,7 @@
               "DatabaseColumnName": "설립구분",
               "DisplayName": "설립구분",
               "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "='03-02_cellevent.PitvotTableClick1'!M3"
               },
               "BackgroundValue": {}
@@ -63,7 +67,7 @@
               "DatabaseColumnName": "대학구분",
               "DisplayName": "대학구분",
               "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "='03-02_cellevent.PitvotTableClick1'!B3"
               },
               "BackgroundValue": {}
@@ -74,7 +78,7 @@
               "DatabaseColumnName": "대학교명",
               "DisplayName": "대학교명",
               "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "='03-02_cellevent.PitvotTableClick1'!F3"
               },
               "BackgroundValue": {}
@@ -84,21 +88,21 @@
             {
               "DatabaseColumnName": "대학구분",
               "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "='03-02_cellevent.PitvotTableClick1'!B3"
               }
             },
             {
               "DatabaseColumnName": "대학교명",
               "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "='03-02_cellevent.PitvotTableClick1'!F3"
               }
             },
             {
               "DatabaseColumnName": "설립구분",
               "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "='03-02_cellevent.PitvotTableClick1'!M3"
               }
             }
@@ -107,7 +111,7 @@
           "RowMaster": "ListView1"
         },
         "PivotTableStyle": {},
-        "PivotTableID": "7a3243cc-b9f8-4e58-9881-32477d4ba4d1",
+        "PivotTableID": "1f58b8eb-7612-47b2-8cc6-c2cff8e7ab79",
         "TemplateKey": "Accent_1_3"
       }
     }
@@ -221,7 +225,7 @@
     "1,12,1,6"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "UserJavaScriptName": "03-02_cellevent-pivottablecell-example01.js",
     "AuthorizeInfo": {
       "VisitMode": 2
@@ -239,4 +243,4 @@
       "Formula": "'03-02_cellevent.PitvotTableClick1'!$B$10"
     }
   ]
-}
+}//LH4bak3ul4QiTa37MdMAp1xxsg3/QVMgeKiDDfFGHZSYTvjOaGLxniSylLWouWW5/IZO4GLwAC/UKcm6W/3LpdDcmj95eMOyq3C79rpkokb9kiTCPEK4arGrzS/12SCk1yFbHR7Fl2jfdOQ0GmaEHOybJxlz8lnzM6P5wV7u+Rmz6wu3garO45VdalgRjGmXEKSPy34Vb1WMbm+gGMgpUPxQV9CDDZvhU+72UHZjR8HguHRFG1NkBIClgh68qF/HOcuyBK3NgA9uxktqWPSikWcLTOaMYqOJRryHeldGXCJb16QNuAETUUxBdBiJo0+NigYX/8vDi+cUv/9+aY+jiv1ZkJWfhe7Z0m9ovDMH8iE4cbLfLLrKDmI05S8ccw//4Qo8US2hHvVfbQ+SBJYuDtrnOw3Wh3b+fqMxu5t0yoLGQg8YmQy4Jv5WQACwd3p5NeVAP8bgI1vS7GXEIW1bEAAarBjxB1a3w3sp0WRKJm9Cx/iH3xoeoeZWLszxBs5itj2Vy5pzBn5U/E01BVfCtf9PdFp5Avu6051DKYhyiC293ra2gmYqRJrRQXu/HoxMGvuqa4hQOIxhD/hN+tSonDU0fUv+aN0gIFFNyVxg6PjKw6v36rP1aJb1WMeLFUhNwD6pB1p9SELjIevyfgmYi6xBsZhfHt2ViezxWan0KATQgWmwHHVh4Cy6Mi8qBoc9fK2hbLca/xIiPWEjCSAj2azwGbu+60szYixUeF5FibUxuaP0J1dpuCDteZjGKBqXg3zaeGZho11uhBfX1ux3anjTLc+uyM0g9DoGwUhkoaJ9E9IiAY1AvxxVqyJp/cV2IO8phU0saC2AuBAxL5OqBSxBppsmTOpXGj5Z4b7VwQ5jNXXQ/wCevfDERg/UjbBrtb1TzrElCRilZg/FhND7HA==|920

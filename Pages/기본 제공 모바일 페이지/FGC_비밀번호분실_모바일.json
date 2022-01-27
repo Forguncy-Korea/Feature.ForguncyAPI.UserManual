@@ -15,79 +15,37 @@
   "AttachInfos": {
     "12,2": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ForgotPassword_UserOrEmail"
       }
     },
     "16,2": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "이메일 보내기",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ForgotPassword_Send"
       }
     },
     "19,2": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
             "PassValues": []
           }
         ],
         "Text": "취소",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },
@@ -160,7 +118,7 @@
     "19,2,2,14"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "비밀번호를 잊으셨습니까?",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
@@ -171,4 +129,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//zxpZJpxuEfUrKCHhAuvVChV4ZfxDKUkMc51uE3Ytuf4j7Vbeyau1yAGDd3btUMkRESN9u6k43wk/hgaSYWNpM3EWSJY5Sy3t4Nkl2XjbGr5DZZteSaQiKl4XS829FZ42CkPTl86jP1+J8L65ypEx3FAL/lyUrmZEHphos0wwX9iVKKA8lD/zy7jGP5+/RUohKlwthg+w2cI7aJoAolvgIgVVyvWOySjfFAJMnRSJLZYW3wZDH0OVHa0InMhAJQyb742hWjsy7kBDc9so0pcNZq+rOMsfu3AWQ2Xq3iMxXrsOXsbKyHGHU5G+5ur7pUuEyWJTRof5zFchRBfod2BjayWgZRBOwVYAsKUjUr7anvM+TgcbTMBKEzRXQQDC6I5GhbH8OaKdpEOU9wJhWetgbbqRBYtTrd70w0JerhHhPnXa9avo6jMAivjXD6Swta43z0VeK44B7ZZpHeL9ClH1HU1B7eRjI1IzrBHbMHcdQUW0Kcuues6kK98mK6vq65o6krYQM4ncDfAlyWz0wulJT84922PdQ9tYlG79KRjq2M2UcYeriqTECuFOnLBq9+VMBeI8NDlLjCHGAAIL5AZUoCjxkYxHB3wb7KAN6/6NuYnqgDboGmMUTmUGcLu4fVlBlIl992AkeYAw5FiRhHkoo6bWqJ3NeEeA4SK2dvt/iMbJnQ6HmIz7uxnP9dwj1kkOKB2lov5oi6Pq/k6W0u2MQPiVp6AEZo5ZdsL6KSnAOd6caWdLkTsVJdvZ6a6UtL4KyL1TZ9sitqqq61yTfkpn7uNJfZhBgbASK8I5xjReVMEIHPDyPl+gynB+DtFEMzSJG8FGPSesQSmDHatlKoHC5uWxHBHSixHWpyPMUMJgDbxQ6UxGEXJ5iHhTVGRm6rDoimwcgSCQqBaAMwCioGsOeQ==|920

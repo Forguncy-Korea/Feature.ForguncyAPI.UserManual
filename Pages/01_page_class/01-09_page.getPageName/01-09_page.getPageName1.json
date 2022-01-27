@@ -11,21 +11,7 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "ImagePath": "Chart/373_rose_chart_1.svg",
         "BuiltIn": true,
         "Color": "Text 1 50"
@@ -33,50 +19,22 @@
     },
     "1,5": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "ImagePath": "fgc_logo_light.png"
       }
     },
     "1,15": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //화면에 표시되는 페이지의 이름을 확인합니다.\r\n  var pageName = page.getPageName();\r\n\r\n  //페이지의 이름을 화면에 표시합니다.\r\n  alert(pageName);",
-            "ID": "d669655966db4c0e8315f533d91d6ba7"
+            "ID": "65b55f0b25cb4ff4a60245f4544f078b"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -96,7 +54,7 @@
     "1,15,3,4"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -107,4 +65,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//wUcEKqfmqFxXTDKgh1lzqoX4yL07cz+rH+zSYHhqWZcLzC222gsQygbhyn3UDRF/a4qj2vg737JNmzAYo6Qq++8hI984ohnUeFfc5+j8Y9RFoJ3wLH9Mi/NERDEvquk4cUsL7T8XonfdRxRVcJZkYKXRe4DDsLvG9QEsy9KT6/URKdkbepVi+q6dl6O62VXz2DQS5eg+y57q7UuFyLgWXETUh/r1XVcbJT2c7jcovExzRuXVmcXPBMcsTgc8UiFTrMrtKE7nwJWj+YdePCjjxE8sRWVU6Y8F9r2tuvofiq/PkWGl6iaxPZSMh+BRL9W4GITtKy5sLDOf1ZObqOa5p4Trp0EEplFxMtjJENNax4TZbarppg7/r8rXBkQ/G0yDCFizwF5zzeRsJAwgdGqHa3zzRm5mN/9Y9pV+KCVaG3qr9ODIwYaoOvN3F+ci3ULdia8+IBxRHcaQnGGLv+GPt/5cYgPmnahRj9m93v6pq1Jz8RXNliwFcaIf+ou660QghhfQXQBSVisknGlhFdfv4z26Yq+bhn24dPgnB9I2VGFSAwH3y8SSWj9vH4NOr2YeVIrCNKGAaLGmgJ80YFS3s0w9KS1ertjz7idLShQGo/ALjxp0aOguV1kIL2ZIKGl5b+xb9sFG8NNCwbfxhU+VewjEghFwd6y9/dPoOtCKkn8MotO/VWJkyi+/BtcEiz6oW6OwnIErEKDh7NFUiTEXbz8sI2WtvoS4ciz5IIs93/bBSWUxQ9WJrNMqIcqSk8VFb+DylL55h1VJdoLz/hsqMHvAnJgySN/MkP/ZkqeIeHCUy6/GlsZGGDOuKr6R/QDk5pHAQr6s4bZHg2Gj16sAUdh52Kf3zHetl17iTkz8n68UomhSe3P0+Lj3zOjPUAsouE+MYlLGfExq22kv8bTblA==|920

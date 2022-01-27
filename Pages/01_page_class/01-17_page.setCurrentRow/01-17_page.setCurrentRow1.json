@@ -1,17 +1,41 @@
 {
   "Rows": {
-    "Sizes": {
-      "1": 30.0,
-      "2": 30.0,
-      "3": 30.0
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
     },
     "Count": 45
   },
   "Cols": {
-    "Sizes": {
-      "1": 80.0,
-      "2": 200.0,
-      "4": 80.0
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 200.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0
+        }
+      }
     },
     "Count": 60
   },
@@ -30,30 +54,16 @@
     },
     "1,4": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //데이터 테이블의 현재 행(Row)을 선택합니다.\r\n  page.setCurrentRow(\r\n  {\r\n    //'_01_01_page_bind'을 선택합니다.\r\n    TableName: \"_01_01_page_bind\",\r\n\r\n    //PrimaryKey로 ID가 2인 행을 찾습니다.\r\n    PrimaryKey: {\r\n      ID: 2\r\n    }\r\n  });",
-            "ID": "bdc91b2de383401382fec8f7219ba1a6"
+            "ID": "0e41028d65414d25a7bdf525f69fc898"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,2": {
@@ -94,7 +104,7 @@
     "1,4,3,1"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -105,4 +115,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//gUvibCPWacQPjTq5+iLRi/iQ0Q2ax320KEU2+CDN6Jea3a8I0VOngnGkgDuk8KrTu/Paijh1FnIV8qTg1fzV5UOHv6m76DlZm82juY+GnTM9NUe3akvMODcN60NUI5c4VLNMQHkY7vKg8HsmDHeIuNrPM00Xl4ujSZX25ihI3lm/zCN+TPdagkEzEQel3NMybznbW/G6VnSDGU2aMKj2XbPGJs+QRqcky4kJlhD3nya6jsS79lJfTH9TXHTdB+7yMkWUjZjEtlS7kDnQf5v0NNCR3Ib9Jiliq/aUNYf8xlzoYGcOLIMSEIAD8L7JEAydFyUl8GWznrK1JXibNyhyp4JY7ve4ksctsllYybYDvY/x4GWyh19cNF/HV6U7Zfyi/iHO0JNAZckpKqNGmZks4KRVysW+MjzuAvHw/Shqel0XErQuMIXPv3kZlBEiQfgEJplhjoxDTgRmHknFN4BK0shUMxZfsb+eKjixB1tEmmuUWs7cgx80xF+XQWJbBbGGnFQ+vZCzeqValnwzyXBvR04IBKdDZKsSRo4RIxoTrBqyQUVKrrUHtTqfNohVUgImvWHbnjgFkLE8/pkXyhIVtpA5wiYC3iEGTyYJNV/vugZoD31JzDk8oQr5dWOlsVowN4qxtn4Eg1CtviIMScuQUAm6FoxGvOpRhrJy+1HrsVLgHANzKghNsszIB2FuSs7yZ4jnmCeo/flOawF3hqRSq6cLJQ3Ys1fbvpQ2370oNg2vCqENV+bka4Yan2SMYjYLe0qQ//SYWv2RkkmaCHgF+3cjGBZI0v5i5s1ijfLDCIGAVC/GVKUkNMKr8xeW2p37bKcPJDOmKPKeWzEOXtN/91Mjj+rcDO6xcocwdB1qbo7yw6HM5XjGYSJy7bJd02ikX5VwWAa/eRi5qW1y9QaWtw==|920

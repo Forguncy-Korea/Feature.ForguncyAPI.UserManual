@@ -26,30 +26,16 @@
     },
     "1,18": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //화면에 표시되는 페이지에 설정됭 마스터페이지 이름을 확인합니다.\r\n  var masterPageName = page.getMasterPageName();\r\n\r\n  //마스터페이지의 이름을 화면에 표시합니다.\r\n  alert(masterPageName);",
-            "ID": "8f2c15b656b94f3ca20c00d17c32b97b"
+            "ID": "72fba61aef994b11840a8c834e0ddd73"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,1": {
@@ -205,7 +191,7 @@
     "1,8,1,9"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
     "AuthorizeInfo": {
       "VisitMode": 2
@@ -217,4 +203,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//wD3gHwX2HzDMINQUGZ29lUk51L7aedFModPC3u5w35Oy+Dvf5Xh0RsXnDveos9I8Kzss1Tv4F/c+3B3v2v6WOi2/+2pdCq2PAasfVi2h3cliIo2bEVShAJoBRuIrzwi9Fn4UsKHHU37y76/AhTZEuTlWS3q1B68Vv8uFOzBUHDcO3bXqpavo9Dc5xJvlFQhmKJIe0uqV5TfkNm6I7eV2HrhE/eXrYAKw/wmJNPwqptT8fBHDGs6jopwEnvN43dXxOsR2whZYE0CImv4KO4uCh6zJUqPdu0wUCRFWlaRtxvHO0aayupsM63YghQ00gM3iiAWaXVasRaJqVLJUPqmJvn4DmAZYFqo1875N5GBLtG4ncLbhVjItwvkWBIWoLvSOeHTgn++U0xuLUptnHnU80KNuWK6Ofq2whZw8fiSdvFL4PgtCLZJNaaHca/LySYctCDnB6tjbo8P2PnNyjoiKaojeIsjCLZhqeUFOXXsYXo5YZW8T9qYulcqbfwM2FGS3HUqDk+Zp/IPUlDZB4fd/QiiB4X7sBFUwyV0vwIDx+/y3FTkp84l9yuza9+O7s81h1fy2P0yvcwKIHzS4SKZHXqxfFniw0yvuMpXqbbUjuiD6nyjc614uQt9Kg5j9FeWYmN2NRmtM88sD88ylbmK7R/BIS9/F4BQOsnK/ire3y1mj75szZ5wfqKlikT6ONqzJa1zodChIQieFcpuMw++fYNRnejBUufLwoBciquTmlfsXBe0lDS41snfmL1DfZL3hOlC+qZWO8Vz3kYWeJqYuut563dCJGGFUaEW6UuPY24zLo4kKkWtpVByTgeKoWSv9QGFwINd2eJR6MTSXolMv3+skhWfZYITw0Cgh7DLylqdFS8lBKcx8RdJ1Kosm6ze5vsnyVrMTGK9jci9aW8AhWA==|920

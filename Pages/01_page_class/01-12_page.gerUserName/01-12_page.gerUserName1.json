@@ -11,37 +11,25 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.CurrentUserCellType, Forguncy",
-        "NavigateToHomePageWhenLogout": true,
-        "CellCustomValue": "%CurrentUser%"
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
       }
     },
     "1,13": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //로그인한 사용자의 이름을 가져옵니다.\r\n  var userName = page.getUserName();\r\n\r\n  //로그인한 사용자의 이름을 화면에 표시합니다.\r\n  alert(userName);",
-            "ID": "a1f4d9b79d7b4bacaff7585c61a65177"
+            "ID": "9470186367e5453b8f60715ae46c1d52"
           }
         ],
         "Text": "사용자\r\n이름",
-        "TemplateKey": "_RS_RoundCorner_Style7",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_RoundCorner_Style7"
       }
     }
   },
@@ -92,7 +80,7 @@
     "1,13,3,4"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -103,4 +91,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//k0oOjGuFV0oXnmeYOatyTvfc/SGMSmlkEG7kiLy1x3iGduOp1RDlFGrrRP8td2Fm5Vgs/Gw8XYXNEVlsdfUgIAAHq44++H/9dBMJa0wjKQEf/Bly8bVcZeX4hZ6sRNXFsoCpfUqh5WYLkmVexwQ9j9Rbt8/3sEp6ecfIijr8/ylESUFKoB8C9iDvKFcxMNZwmS0rK+zh8pRbf1VtR39kcTM9nMvC48Umh5f+85P2Wysi4UvJyNtKU53QockdWOw+l9znIBXwovK6WNoFi+Th2sP0wOkzgYsaln7/zf8TmE83u7x+AAZVIQCJAZ0uLVAJSVqyhc7PZFWlas+qki3b2tuq+4DrK66xkNlceSWXe33/3Q4aoDqSo9BmuxPYxU09qe8/EjDSwIKPHIGfyaw/UP6xvDbltkR3MZ/EUMJWgARa5wabwD0CiEI1x3qkD8XzVePOC7CQYycnbWRqInVavO+lvKB1TWn+2l+7b9h2CnwIbqlz5yZZrQq7vf6uR7M7Cel4gs0Sc78utfHUake6Eye1smDsxwyEHKDGFUoT1k3xVPuc4sQWrL28N7OjXuSbhRagBIL/AHNyr//9ihfNZA5J8N4fFoiGHC1bYmMOEWOOejiJUYKm8V4K1f43OENLkqLi0lbByzGoXp/yOppBhu/ZYrbKoKp73I/ZELoodCEHDCOLRXREMYVYq79XliKztWJqsufNQIgCMP1jUM5zjj+g5IXc91A7ttUEOeVPsg2wRnNqGApIbquyzlWkAznrFhNnLNCRN4zwbVQC0XH2t/f/7K96BX0cTrYJ3K35ZLtdaW9zfAcLOypGGijyUZ2+7YAPubnDKxA1fdY76GxhV+q9NgdYbx6Mz6sIue2bGmrnYBk9SW64sXAtAr4uKikdApQCM3cPCtWY9yDdsDcFtg==|920

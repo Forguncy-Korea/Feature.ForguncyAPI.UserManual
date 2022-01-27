@@ -11,37 +11,25 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.CurrentUserCellType, Forguncy",
-        "NavigateToHomePageWhenLogout": true,
-        "CellCustomValue": "%CurrentUser%"
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
       }
     },
     "1,13": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //로그인한 사용자 인스턴스의 속성들을 가져옵니다.\r\n  var userInfo = page.getUserInfo();\r\n\r\n  //사용자 정보 JSON을 표시합니다.\r\n  alert(JSON.stringify(userInfo, null, \" \"));\r\n  \r\n  //사용자 정보 중 해당 사용자의 사용자 이름을 확인합니다.\r\n  var name = userInfo.UserName;\r\n\r\n  //사용자 정보 중 해당 사용자의 역할 그룹을 확인합니다.\r\n  var role = userInfo.Role;\r\n\r\n  //사용자 정보 중 해당 사용자의 전체 이름을 확인합니다.\r\n  var fullName = userInfo.FullName;",
-            "ID": "2402143568c54466b46c886ae0565187"
+            "ID": "8f9af8238ef249fda56d4d0a1ba5c609"
           }
         ],
         "Text": "사용자 정보 읽어오기",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -103,7 +91,7 @@
     "1,1,3,10"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -114,4 +102,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//yqquPlBQvwL8QQSZJIQoPS++1JgpbT0auiOx/MpSGjGeuz6YkGb8f5UfmGU4/YgoJYW4en9foikT4ay+yi/gEz4ncSfwnAosu81SpFw8re8lyuPj+/rax8C4v6fkp9UmRjOA+aTnGI7uAnzaVmHVrQpZxlUIziBas3FA2qYLuW3IjFzCZfsTTazwVViue6qhNoCYSwzbvwI0jBUhQX5uoZjIWrqhdJWfL3JLP8UaY9IWAR/FgxfsRKby+AmxCgMlQlNve34YbyoXaxj7ONqpH7uEzPl1seT2rbtl7JTWJek+CWf9Q7fx1NCcMiXg8tFevOIkkZHnQVhY7y8GDyczf3S101vVh/OliPBIUyxvGzcvFy27y2hPwT0nDN2y20fkya7CU3zxZeQPspHTt/tbIC3z7QwBJPD3kNvKar8Nq1ny+zlpiEwsYPVNOaXnTS0rcgjZ4d0UW+Ssths5EeU+yYI9l16I4nSMTNagQ8bOhXIvtRYXYwPrll4c3bNHdS0QD2EzF5s4VWOuHxgbR080lxtWSOo1Y4p+ZMWvnoxYpXTNqso3s2O2q5b+qqxL7IZIBgvg+rbPLfjzzOHUjujbALCiDMXAAH/zR1lUEgDw13MDhkkgUKyRLMmoHl9hA2B4Lr6pSv/sxBzx+nZW//d6j13AF2U4i06xNu+EAJ9Ob0h4Aqa6pBWaFYweI70UxgFccBfrMBlpdmJXwgApjFX072fID3uV77wnhpvXeyvphbRkArb7TfvV6O+MxVsSWWw4Ir3lkKzMcMHn15az+gxZMYSYi62O8wRO0riUInvCQtdUvA2cPfLE1UUkfVkMvgkypuO3at4oxdpi0OUEE9T1qWfz4ajYKhUH2UF+tiBv46nvbbqatPlHp1dQJ/RpfFwUbZFtkErxvAv4XZqCjY8yEw==|920

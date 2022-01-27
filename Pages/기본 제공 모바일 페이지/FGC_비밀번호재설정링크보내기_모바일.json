@@ -13,31 +13,17 @@
   "AttachInfos": {
     "16,3": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "FGC_로그인_모바일",
             "PassValues": []
           }
         ],
         "Text": "FGC_로그인",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -92,7 +78,7 @@
     "16,3,2,12"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "비밀번호 이메일 재설정이 성공적으로 완료되었습니다.",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
@@ -103,4 +89,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//w8/6hWcc/4kQAa9D3yAhzp2AN7puPBsgR+XgHDLN9slXmG5jUUxPDSeVK8Arx4ih5FU4y5sJD4UQN09WkdWJiaVSGAnq5N/YIwrMtW/UubdiHd3AT1KoT+SAlPJ/BX2yhjTjKq6duD47DzUroGpTZmNyavkp2eNCadHC9KI074T0gXN1MJwijLRZRxJmDmsAUKsFSkRS1IHPrJFQstevTJt0ybhavBM79iy7ZeVhVYLzTExtLu4pQYJFo+vyHwT4lp0gBmAHcxjnFKaciV/d4V0Bsagv8CVTidoezrIMCZAr2GnPGnhOtwt2GWLg6aoNv3JgUCPyGSXbBKiBhOyuHFdsCxXmasiINQuF236R6zoKKaIklDEh6bcSjyjwwAjgjrnBhjf5f3VMefiu03JPQocNUdNCOGZKZ7Fy3GARU1GYz7+8FjMp9FK2Ub5D1SbiKhNCrXaAIbqMfpP6IB+Jl1Erg9b8I74YBwVeRUeK/9ruXJ3LccBRGQ7zCfccoaCFkKB4Qflln+3mhnkKjqyy3U1P+29TImmd++KnOdVMLBWqrkiwBJWMpph1dBExsPtDFFu4F/GQy/y0vsn+k57ojMPWEplPL5+EbxAnPb2+wRUFC0wiooaUtrptaFr9fIkElAHf7DHyiLe5qwP4tKkNJfd8Bd8rMGbRnSobE8Kj5oexcgb8dJmnGfQ3yzikp4g1zO4tUoZ5cE+kLlxPvSc6Tfa6Av7CQgQ57jTlgzrveIsTJzeXKGWy55+/AfyG6IjZAlRJ1JP6hEbBGRGvp0dc6UL3B5bjs2NI4vTcSR/M8HBmUZ3EeiCNfulUq0yGtV9aGxEsnlvEtwRNYmKbgrpZ2B5kVuyP7uyxJxhTbZVhHyDhs2Rr/ZdFwz9PrEWMvNR/ljjC4mK2YZUUOIrMRyzvUA==|920

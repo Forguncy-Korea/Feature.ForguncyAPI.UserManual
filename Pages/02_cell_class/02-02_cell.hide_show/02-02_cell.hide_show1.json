@@ -12,7 +12,7 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.CheckBoxGroupCellType, Forguncy",
+        "$type": "Forguncy.CheckBoxGroupCellType, ServerDesignerCommon",
         "Style": 1,
         "Items": [
           {
@@ -27,77 +27,35 @@
             "Value": "항목3",
             "DisplayValue": "항목3"
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       }
     },
     "1,13": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 \"myCell\"인 셀 인스턴스 정보를 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell을 숨기기합니다.\r\n  cell.hide();",
-            "ID": "86b962d0714842a2956f7445ca0b988f"
+            "ID": "1afb2358785a46f384ce70cf1c8114cc"
           }
         ],
         "Text": "Hide 버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,13": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 \"myCell\"인 셀 인스턴스 정보를 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell을 숨기기합니다.\r\n  cell.show();",
-            "ID": "55b27451f1c648dca32d4416c43bf6b2"
+            "ID": "83039a5fc6614e2f8899f2baeb858674"
           }
         ],
         "Text": "Show 버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -117,7 +75,7 @@
     "4,13,2,5"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -134,4 +92,4 @@
       "Formula": "'02-02_cell.hide_show1'!$B$2"
     }
   ]
-}
+}//aT2BsHMLagsjG+RAh5sz1oOnUx/gIy4/IGjzP0yh9qC7iAudxMjbT9If31uy8/2ENMX2ggTX+lZ4rSOslD8giqysLFvpCgqeYjm/Iq+Vdb7GaKu+vq2kCBiA/RdD6CtXVtCbn3aoyVFIZIGTYt+guyxzN6n3UkfM/L/YyPSlsWQortLW3ee28r57XTl8kdLwgJNL+bB+tIDO+Hgy0vawaSCoXRhIPgzBcn25XkqZIzTG6M4sEhSjyCQ7TN1uuk7Rj6rnU6j9CJFAyRpfkZZFkbhw9ZzHkawFVT3s4o/R9+PXxEfFd03uOVO1VyfL2PdHIuW8NiouzPfVDB710DjllMoLxEoQ0oXYw3HaYz9XILKm4/sLAkLdHFu4DiUJ04hN7HpaEnE2xHLOyjYo8kjWHJ09D0NyjwRUXdQ18I+3BDYuETOWwBT8R2IODlgVzxqpkOEEeaNQfHq1YHkfrl4y/wgSWiXBzUMB/M0Tb/A5QlJqeAhGqEMI4zD7Z6ve6dn5kb1pI3aiFaxFrhDO35wZtkXBGyujlq0Lxu+z5/pxFX3zYeIm1PZ+Ay5b1Iwwk52JJKS3EP74UDuSGEdTBwkiG6MKMYKHlzhb75qmHi9DwLTGJbv3qvGiZzO2y92/rDEfo/iYZXWwLddwkaxgvces0LI9TdkozqJCvCPeHG6E1iuuYedzecaaoRJjMb2CxOqlkJv8ObpXIzJrx09mVQ6cQ3Sp4lJRthyzJU9FE2Tq7l8R3+NX7QK9/auL9jh6YLcb4XKxBGaL8nd3NpqMXXDlY9f4TwEx1cEdMf7xaA6wErUqdh1khe4epV6+dt8Zc/02qYmbMFyImeQJTcNLh9XVy5s2AqxDsy6sM00iJ5a1WMWtsohtoW49LlGeYlMmjWM218FUnVe0SlKW0t4AddlylQ==|920

@@ -12,30 +12,16 @@
   "AttachInfos": {
     "1,6": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 myCell로 지정된 셀 인스턴스 정보를 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //셀의 글자 색상을 red로 지정합니다.\r\n  var setColor = cell.setForeColor(\"red\");",
-            "ID": "634180c8848c4753bc3ae0f55a4cb013"
+            "ID": "dbdd5820de274d999a0b8ed50bf5682b"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -63,7 +49,7 @@
     "1,6,2,5"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -80,4 +66,4 @@
       "Formula": "'02-16_cell.setForecolor1'!$B$2"
     }
   ]
-}
+}//csIsDbq7LmLh+ojF1yV8Xw3eQugA38cSoKP1OOXevuLdKHDHQpuFxctzvSqZD7NaQjEIL/YsqTIeAJ83+rpbhOENPS13CX3Bsc/VqrSby/Q+f9MkOTIVlbCO3jvZZSpqfpFaDj82+f35AoWldlNIH3mfiEGVNhuWdvlmkzEXpAMsHVk0Not0h3sKrMFfJIkr2ZzMJiPcQmv+07B1OWR43xbrFxzJ7bxC5pKudIABZf++Y9ELycz3yRMw2xlazasoVcjaxpA8sudr/0TLvT2ZY+jpUGlGhnCzgjLrfGDS5Jzs769A5BBnQFHGW8LWx/nMPmD9/NYFArqX2Dc2dQP5Ssb21K29+dFbrZpq6YLlrMcpbhQjgCEs/hBtOdaGX546YWZeOfrNkZoNHBTNx+MPiyCX0LC9ys3h33UoOJPdNgTIQxAlfxGwfskKukgBO7NpvZyTu3xdBmggScYtYJzfHWA0rz1YnkMWd/8APVvvvoIsb2dL3BXW1iF6z32CzHzKhmZjb2AR1hz+x/0pKj/l7uXRiBD1Kodz40xCrhb+BtMzONBaQNGw/Uv+CpgeezgOveJriKKWMixClEFXBb+QGp4KI5g1vc9CMf5UDh664VDZzG0/AzY9CjZ7YtRCxwNbmylpXF+zSX4tHvHbpJh/LGaaA9dgjbiHz6YSrkemHT+GTdpMrr8aUT1c+a5KsvzucUPwRmSuBSXtPFpiQQEBSOkN6k/ak347Xx1XwAR6H4q+ob8AUZRZeCzzqiOb2RelRfoGa5yZJeG0SLa5IzUrVmkT+hIBx7MXZo80Zt8rhfzFOKBkYFZs23ANd0s+IaaWMJqbmiXVhJLezpfG1X+fLbkU3UOZsTuehEsDy8WmK6xj8puQEnw8FDgtBzBkWIWBoEQZpbOB/FCoYbvJJBpC3A==|920

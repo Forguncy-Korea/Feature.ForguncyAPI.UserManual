@@ -44,30 +44,16 @@
     },
     "7,17": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //데이터베이스에서 데이터를 다시 불러옵니다.\r\n  page.reloadBindingData(\"_01_01_page_bind\");",
-            "ID": "cc54bfa64edf47f598fc612c612ed598"
+            "ID": "8ef3f437cf5547a5a4725f2743586808"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -217,7 +203,7 @@
     "1,12,1,3"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -228,4 +214,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//NwBh6AzcgVXc4CDT76uxme7+gzXTgMjs1qrjZzl09LgGk0c7ltHNuEgUz6CfYwDxVwGhvFbctw80fsf7oapcifoNLD+/PF1pdZ8xLSNd4rwbp+RCPDsU+c53rE5gYIP1NT8uoqWmzjCdlY1IyzlrrYka2y72UMAUZgpK4eTwKqcFteZeVhsThKYEV3/I+7m2hNArZehZN2ii1Bj/p0HZhNjS488GpIpmMcCEmsj0SImxWuk/1Gig0+GshTwDGLVlAJu2FyzP0tWdfb/8oqMWInB9LVpc7i2Cvao+vfKurJ8G6mDQtFiuLK71w8K90UL3vHPNFsE9fQP3a/1rZh1EdRhmc7akYyrxpnzzFrPmnomKKn8Ax47fWUkGCO5AB3302sn6MMelXNyXv+QUDb4wadiGiJl+IEXpQJ9hJ6MeDC2kMl0Hs02DTYtBq8x1NJfGkfC253LsunDanmnSq8U9X288fLSNk2oJ4LCwEhlaaalp08RvEJYdqsOSSGhO2yBN0icF37qxoR8kChqHSlSNrFTeBQ+H+/EOtBGW9u/3y13z7qcGLfgWkegHql0x9F3Nton9ub71QNOGSe9T/W3sXVz33qipkzIuvoOjhz47hG9AeemA8A557IHXR/CRwA+B3MDf1OSOZbVVzAxuX2iuR0dD1p27ul01C+kEB5oKs7UGjoY5mqulZPd4toZgNmbePYgZ1W49BY4EKxqTntl5yihVC16n1Hr7M7kjiac8XL8H46UTodgcGOum7FBRN4piddR51eQGDdllFWA7W/VjIXQKPpVMecsl/t3S2ISJsEWNaGHpzXFb21/w8Q3E10h+NvppeTx5/dPqYvgJ+e3aNFvtBYGr8UhrKLnf0Z0haWajAH3rwRII4aHuW9U2nfdIhyH1J6cK1CdJijqmSTb37A==|920

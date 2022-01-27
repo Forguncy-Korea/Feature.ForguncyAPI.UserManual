@@ -8,26 +8,12 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //CallBack으로 사용할 이벤트를 정의합니다.\r\n  var leavingMouseEvent = function(arg) {\r\n      alert(\"안녕하세요. Forguncy!\");\r\n  }\r\n  \r\n  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //Cell Name이 picture라고 되어 있는 셀 인스턴스 속성을 가져옵니다.\r\n  var cell = page.getCell(\"picture\");\r\n\r\n  //picture 셀에 enteringMouseEvent 이벤트를 binding합니다.\r\n  cell.bind(\"mouseLeave\", leavingMouseEvent);",
-            "ID": "80ad875e291d443a95f36359a8a7699c"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
+            "ID": "c8976e62ac8f4ed39ca87766fd6433c8"
           }
         ],
         "ImagePath": "fgc_logo_light.png"
@@ -48,7 +34,7 @@
     "1,1,5,14"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -65,4 +51,4 @@
       "Formula": "'03-04_cellevent.LeaveMouse1'!$B$2"
     }
   ]
-}
+}//3TJflUredlxhXqAAODWSZzaXw4lOl0XF9j6PbpEd68W2jEhRb35DiyxPFiIZsC/fR1TZbC65k1S6knpQGyu0f7uMwKWGYO5feMYk2qjfuKNdRSkN9uKhaobtdVkDUu79mk0J5olt3AlP1kkXy5b6cNVYSN2kf2kUNpPboU+DWK7zkE8Q9Gv0dngMvzbDilu2D5TF25xwILaY7TIyjx0Bd/Qh0PlFeMAPv8PbbncSGGLZGuD1bJ289fOd6Aqj/6waMQ6d8HYEA102SUgtXshtYm/MfezlIW0NLwz8vAgkEZ5H3lfGcaxn74j0DfWneHEMag0svPZfIVPtXh5ICXuPbpOJMYSBsnADId2I/AbOYCO5F7E7bGO8w49/gypZADgFLSevYM2E2j9JL36kbnwHbKkPjqLLHIqYe+21YbG6Nhx0fRS2lgOE+txS4Z0ZFPjRhJ+zwgoRqyzClneU8/NaUlIaqgnkzP5y/TdnOoNrwMvEFCSqcsAq+/NijRm0aKBlmolAdlKlHh82EkSaVBcwwfSyAZJGhbpG0YzGSNxJeqOd8Nqbmi1FiMmSH3M+/eX9OMVuXdWDfSP5c2haQAXIr/PXNLWEf4b31TL6hSwD6EsftledEHONTkcijFZzQTwmKq3qdOQdz8C/2LuGprIFcz/lS73Fv3hPPoZnR33jdyboE+4XcEaRe1DD0NwlA/QZmeIDdj9kAoXFjHMnVzHfDkZcBoUYGPWsWiATjdf4HLyLfHC8H9HKWyH8HD57NdAeG2tx98D0BtCwz9Bho6odZLkFNEaC5IyBywWg3kBp09MYPyLzXZp0d0J53+N8cUGf4ZIRFyFJiT7wRl4x4aWfcGsrViYXPpWx4yJtLCIt3r3lc3BIh5Sts7vSMstbaORsL3csN1r+UQdTgIshfxII/w==|920

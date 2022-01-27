@@ -11,37 +11,25 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.CurrentUserCellType, Forguncy",
-        "NavigateToHomePageWhenLogout": true,
-        "CellCustomValue": "%CurrentUser%"
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
       }
     },
     "4,1": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "//获取当前页面\r\nvar page = Forguncy.Page;\r\n//在ready方法的回调函数中加入页面处理逻辑\r\npage.ready(function () {\r\n//绑定单元格button的事件\r\npage.getCell(\"button\").bind(\"click\", function () {\r\n//弹出警告框，显示当前登录用户的用户名\r\nalert(page.getUserName());\r\n})\r\n});",
-            "ID": "f312421d221143e3ad8e15837c374749"
+            "ID": "c7f8422710554964a862c116fff40dbe"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -60,7 +48,7 @@
     "4,1,3,5"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "UserJavaScriptName": "01-13_page-ready-example01.js",
     "AuthorizeInfo": {
       "VisitMode": 2
@@ -78,4 +66,4 @@
       "Formula": "'01-13_page.ready1'!$B$5"
     }
   ]
-}
+}//HyKvPXMfiONiAL4lLB8zKhLAmk6Ceu2HZEx0z52CPws6tIZzkbqOi3qxKAkcp5s2D0oOGa3US4wTfmU8GaGjmuQ6J4TvUKcbIBOSjtiR0vZkrUce1V7OIG7wZBKbp2MlZmcYdD1tP1Yx4Qqwx68c0RmVOVbBrNGfCFUInGueRiYDdakPTRjckHSrixlINgzBdxIfTon6403oNWAuywgK9c8bGHr5gCfIfE2XGyNDVZw5aToQauzhOHEd08fQnAz7JGEOaI/eO6DrxC7+5oyGqayap+2vnwFIkZ83KHmdvov0jqD0LAcSukOnFOzHmabxeXaGHNOOwEHA5YiSwY9R2E63Uni6zCnkgyazRKrZwP8Z+qT19K0RlJ2e3R4fEbGk2UzG2tK6kcLOaKMePHxk1jcpO1CnPJxWRzi3IKHmzZJt9Zu+r1TRNUnl2ohXg1VOjQ0pcfWSo9JEwzWuHvchVE2rSb7AYRSKfh6tpiKjb4/7snJQ5kDO6yu0Av+nSVYtaWC/oqwhjKMmEKamictlixFmshsPhDbjiiAbUoc7RpWTmHyF8Gc8feyWRg4YdJkEbCBcF9c/YYYZjW+u9mV1jfqIlcmezxyype8TA9LiLX102c7kFOTAy85jWKkN5CledmbroT4bYvyrjUE+v9VRLjGhII8hzRmXsBpcmc8oKiuf74an7l+SJ+HY8XU4DGUOWPKvan27ROQjTOb08iNrkNkwYxf4rD8a7IfSElptSnGYBsilTff1pQuAZ9Po3voHLlglyrtH2215UjSdIkhs03Bc/RRzYIkKx51mnmR49ACB5FFSEBuZ35soS42W5nXlb9mRfb98fBzb7vSyHf0vzdDKG1U9hWZ8N3TcQUMI2Oc0/ljc3gk7Ij/hvmz+R0ujME6QwBgS6BkEBGWF723aBQ==|920

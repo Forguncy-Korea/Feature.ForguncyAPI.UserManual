@@ -8,7 +8,7 @@
   "AttachInfos": {
     "2,2": {
       "CellType": {
-        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "Items": [
           {
@@ -26,23 +26,9 @@
         ],
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //CallBack으로 사용할 이벤트를 정의합니다.\r\n  var selectionChangedEvent = function(arg) {\r\n      alert(\"안녕하세요. Forguncy!\");\r\n  }\r\n  \r\n  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //Cell Name이 picture라고 되어 있는 셀 인스턴스 속성을 가져옵니다.\r\n  var cell = page.getCell(\"combo\");\r\n\r\n  //combo 셀이 변경될 때 selectionChagnedEvent 이벤트를 binding합니다.\r\n  cell.bind(\"selectionChanged\", selectionChangedEvent);",
-            "ID": "0c2010ab447a455b9e6c30493af191e7"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
+            "ID": "e311cfcf05014e81a80e1f1dd40a343e"
           }
         ]
       }
@@ -62,7 +48,7 @@
     "2,2,2,8"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -79,4 +65,4 @@
       "Formula": "'03-05_cellevent.SelectionChanged1'!$C$3"
     }
   ]
-}
+}//nJGp4IWjXSxOfAHPeO7u2tqzbMvyAB26l02MNbdIyGKMvCATOyDuT876dr2+xz0OOG+8hzJ2Sb/8Sa8R7d+RmpeaNmGo90bS9lZOPYHUoflkYWoUklUcLZLDiZfkGVCl1aamLlMeGVAPfl8bzjYYya89dOEbVsLoe/CQuowV839wHYnH9dtCwsbhTTc7tROd0z7gdenNWThoahnPAp6YTgJ0MRrxLr+HzXTW16qAKgg5SelpoTp1Dn5jjea3TLkmYM/wItxJURlt4Phv1JPfmHID6vUZiLp8JipfNC3V8RN/TOHMmy7Azu+QDpTMbe3PnkVB/nCpr9v8xBVOdGH6T/nsUlyxpISG3/IbTma2Bi8LUnHJjguIq5iaSHzF+6RYZuGzv9VdpjBxQ3SIC/fexNuNgkAbvJ1usHRZYYKP/w/YtgfBxpaQRYQVVx/jfMRgqD6meJYwOJMt2B4QtJVn3NQfyO4iYWjboW6NSK0SGzsp4O+EtNECfRn2buZ6Z6YvNLt9muuw7qO3G6kP7YOD84slAVJDij+FgYXQ61IvF2IoY+RPpZSnIE9/GJ+XsUaq945JBGOHXJXDFvnKIs47w/zcw19BfHhYOip8VIszdVtxlZTDA/R3uwdRpGaRFp0JnjucRd87gPLGjTJhSBHAbS2899dQjCTteY3Mya+otqVw9sL8JnvanQxPADzQx0REqYuG8F1evXQGZ7AeXeU8rs5cG+V/MELUCZclvRYRbahhI5wBlUii/SbqYtYsC2vWGiscUMrmOuI5w5zCJb81Oc3wMxtGTp89vlDJrg1g1Fp8WT7gPUFTsJPIMRDmOzcCl5uskWesMLOyg36DvZfj1HstIuLeIGNJSTy3czenM0sR66pq0fT74asrPjhnSsj3wICxMWuBQiYn3/aUS3O81w==|920

@@ -15,131 +15,61 @@
   "AttachInfos": {
     "6,5": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_Shadow_EmptyText",
         "UploadImageLimit": {
           "IsCompressImage": true,
           "MaxWidth": 300.0,
           "MaxHeight": 300.0
         },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ChangeProfile_Picture"
       }
     },
     "14,2": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ChangeProfile_FullName"
       }
     },
     "18,2": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ChangeProfile_Email"
       }
     },
     "21,2": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "저장",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ChangeProfile_Button"
       }
     },
     "21,10": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
             "PassValues": []
           }
         ],
         "Text": "취소",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },
@@ -210,7 +140,7 @@
     "6,5,6,8"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "사용자 정보 편집",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
@@ -221,4 +151,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//s9McMdJogXvCV6dtajzlsyY8DajPl29fHgBi3AfUfsz4AOsqgHHGuaPJiY7LBSDzK8Zm3znntEhsSJF78HyYfxVKcVpHRzJ4UvVpaC/KvJJ6PSMxLh/RjpN9Hqa6KOXgP/ZvaoWlsIWzXLiS8/UVqLgKQw+rfxm+zz/Jj3cxe8nzkxza1/NpjNmOlXEapmaNKfQ5HrfldeLBRUSoiawIyz4g0svh/Go5FtWVdvihxDxiFGfWnLw1QhFHxtIxHyRHn+h//GB6KG9D+IoRObroezc41v35pur7wd8onAeHP8QmxC12By6RmCC7Yr7ppralwU1SZlXCdpEclR7NaaMknL3OkDni7r8VKSIGh0717YhwOoRvOAknKUEWM1laj0Pcm106ysezhgY3kR0sX+4KUoH+6ye3wipJ0IGPQxPMJKMxeulMN+Jvnt0KESMv6B+I0tjacYadGsqqgpoB1a6qiufhogUNW5ZL7k7cyGO50s4lhGnq0vug8O893VYLY/FwRfHJDubqiFFYRf8Asgv0TpTSX5G41TEZblMfnHpE/+lAnMXxxAIBkYgfSAkHLnLt9xf9pKkb2OWdbQMrp/Eu9t6vZzIMdDIUaNht2qcwhEMNJpepGvt7kSIX+VnL8bcU5vi0pacB1sF44eAhGX4uHEjnrq1nhzWvNNY4bX4/1miruDzuJ0knPF2E0egVHKsy+8p+EuKVqnDGRq699If+2Bll/X12Rmw1/gW0ijtjn4gmF+Pb9KdGGPvvGShjWFvgzRTB1G9jKLKuhtuDCAwumLbz7Wxp4NHl6N67RGD8pGTwvk20zO7m5++IWFx7xK//IPzjPoxWw2H2S4YuBpF28MvKSiGXsxBqn8S/JrgdNfKxIzkCJcC6zZ2lvlIXS2iyVB1ziELyaDUiuUZJ3YPUew==|920

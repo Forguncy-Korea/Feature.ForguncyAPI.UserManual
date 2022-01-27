@@ -11,21 +11,7 @@
   "AttachInfos": {
     "3,1": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "ImagePath": "logo_grapecity_company.png"
       }
     }
@@ -58,7 +44,7 @@
     "3,1,23,48"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -69,4 +55,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//NDODhl7AetxUZjh22cjivvrKDxxwcO/Jk0IfSZ2m8sGJKhOkfvsePLWGn8DzPEKSUU14LqHd/eEMJUnlXADer4rwCxQf1omVVbLJMOzKSjvQwr8zLLWOBw435VnBxOx8OhFQYOSoRYilokDLdfpWif6zVTE9zObQTIKIveAAa+If1DuVUScVKG2cYvj9cbaqHPphNxvQ9IaUnW/1wh8ZJhwK+F2tchw1yzinhiP2LtB//wdUCOohU5xavcLQiRLKWYFzeLX9fb8+l1vbsJXKY7WbCMfwsLeskwVkjuDNdqXJRrln4B1a6iiy8/r/UOEVb6Plw2A4XYahrMKCBjg265cLqxkoXpAMcYWLpEqLYxjU3Pu1hwDhF3BI4g8OAXBVNHy7bMMrRgbP9w03JpMX4Rbx1O1GK4vm3etZ6/aucvPwJYRjP0as9nr+Hn7MeRor0GME2jueRCNRxfmF21kqHImLOLznhHbljX6vvV2dE3KC8Ah1+IpiDOJTRLQLLWzNavVNz0z1h6mwbXuJeHsHxnaHDL5Vo1TLvcOyKAYZJk2BlT9NtcjORMBpcPaT+yOj/DnZD3unj5K0J3Kk/yAvW1ZUZPnk5pR//IgtT4epj3wf/MYkpokdsI1z4lx4inHuCP5P/L7ZuhaRnb7fAy938kE4/NlGJ5Gzdj4pW8Abc9MZJzCH7JDwAHIdbnkboPhcNzivoToZ22hieMHjEBy54elqMdJgNkdefRLdJlAsU1Wjz2GwSklfSYIs8xlTM5xkk8oGHaQZcQo5V07QbOi04BiLgrEkTbgkrId8tQGAg80ADcJgkAK/ikqul5GPRjDZWwemWP4iJRu4Oa1H84qxXtGG+SjHBy+++dBm14XXOMIKiyioM22bgU47ZS8RhuL5c3S6bJq6Ux2CSbpGdien8A==|920

@@ -14,7 +14,7 @@
   "AttachInfos": {
     "2,1": {
       "CellType": {
-        "$type": "Forguncy.TabControlCellType, Forguncy",
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
         "Tabs": [
           "01-05_page.getContainerCells2"
         ]
@@ -22,35 +22,21 @@
     },
     "2,17": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //페이지 내 컨테이너 셀들을 불러옵니다.\r\n  var cell = page.getContainerCells();\r\n\r\n  //Cell 인스턴스의 길이를 확인합니다.\r\n  var len = cell.length;\r\n\r\n  //Cell 길이를 화면에 표시합니다.\r\n  alert(len);",
-            "ID": "d0609f0a186c4e38ba01ab236bdb3092"
+            "ID": "8f66220685314975b7605315b1e8a67e"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "11,1": {
       "CellType": {
-        "$type": "Forguncy.ContentContainerCellType, Forguncy",
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
         "PageName": "01-05_page.getContainerCells2"
       }
     }
@@ -84,7 +70,7 @@
     "2,17,2,4"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -95,4 +81,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//GctDGLgzEFr2RSK1C0eqfn/kFXW/MdbLXKUWvhCK5td06Bvhjd5x95w8ncEOOM7z1RwJPp0eNj4uo+i/y/kZ9qdpWNBuY4FPYnI0wBNrcIhv9vY7GIqd2MrcntIXtpZPtHxJEdwK1dGmsnl4XBze+dcIZmZEam+WkZZdDpxDNYHWCuOIKoqHbYkhMN81WOqbOjM6/csPyVSNzePamR9SNRgkdCHb+BLyif5uo6N0dhx2jSpzs5mI7q1ZKQceatmXq3stTx4zUKXJ4K4mmRRPEmaxdVgEoPndg74SvefWIFn3uzjqMyw6T/EHItLaO6DtseCthYT97WPYNXHpH3s5dsH7/O6NDMDEjCjt6lKW0ZRFoUaChLDJAn043L7pbIEu0Q/yto6bGix/llA+xrfqmxPANVoqWCYJxfQffXdZnE5hm+XTQ4YeJFAn2qj4PYwZfOcYsF/kYIgDb/O4N6hQpvwwaNiM34Ma4ijZ78phylKMCnlaswUSRXFshHawdbNA0gg0Na6nnRsZlMSJaH6z3+XxIgXPgJ7Zrvgl9o6wA5+0Wmdo5rUuXNdmnHEG23Npm7ZqHjcFlf4ng8u47zX5x7jiYCSrGcPypy9c5yVY0ytdHfiWAZzphOMLLhsQjADnjitzUF041ETg5ONcgUcB6MQldsELrLsBGTvi9QwD8MKcOZzA0gv31YVoTffd9OPwOUvWp1lDZIU6joz24w+8mUeYBbeMFXSJiGMRdRehAxl1WQXPGdgaT67T6KOIAXB+JEBh+BDYeHUazVUZtFoDu+fswYWIwakVkAVYMAnCioRug9/1fXNUp7oU1pBuKworx/AR0/fJOkbdpqHKOHRCmW0dQj0LFZg5g2AsMiJ0rj3PT27kUQAr2xyGGfCDEZC0R9tfEiRCf9pX6blQzaBJwA==|920

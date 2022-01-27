@@ -1,9 +1,21 @@
 {
   "Rows": {
-    "Sizes": {
-      "2": 30.0,
-      "5": 30.0,
-      "8": 30.0
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
     },
     "Count": 45
   },
@@ -18,7 +30,7 @@
   "AttachInfos": {
     "2,1": {
       "CellType": {
-        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "IsBounding": true,
         "NoneItemText": "도구분 선택",
@@ -45,26 +57,12 @@
           "TableName": "_01_06_한국도와시",
           "ColumnName": "도구분"
         },
-        "AddNullItemWhenBinding": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "AddNullItemWhenBinding": true
       }
     },
     "5,1": {
       "CellType": {
-        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "IsBounding": true,
         "NoneItemText": "시구분 선택",
@@ -91,26 +89,12 @@
           "TableName": "_01_06_한국도와시",
           "ColumnName": "시구분"
         },
-        "AddNullItemWhenBinding": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "AddNullItemWhenBinding": true
       }
     },
     "8,1": {
       "CellType": {
-        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "IsBounding": true,
         "NoneItemText": "도시명 선택",
@@ -137,21 +121,7 @@
           "TableName": "_01_06_한국도와시",
           "ColumnName": "도시명"
         },
-        "AddNullItemWhenBinding": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "AddNullItemWhenBinding": true
       }
     }
   },
@@ -196,7 +166,7 @@
     "8,1,1,9"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -207,4 +177,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//3RVWIWcLro5wqHbthgcgEsB+ABGJkKBvYWqVgK4XXJZE4YNopm/VZNWLHDdyIeC1o749jl9QNpAp680YGXt4v+dGZx2tDLvobUX48jiFYNqxo6oN4hTqr0XitySIkXWr1chQjD/5xQYO8RpWPfK8mxJ/Z2tzl56MhtmuqomX+zpGO1cqQdL7qM+g73FPc9Ya+O5tSAlFS72Xu1UHOQbC/hbm61TMQk+HfUb4h+udFRUoF7pvtAKAppwv/T+mAhmuoY1l+En6XefJgwf39oQN+K1uTg3/6L8ZYDQ5Y0R2PONxUmW8/G79CmdlRo/jMfHVIjfmzQCkKmfa+8E+A5zwbm+gHgNhmONPQumTs+2hi/F4SQz6MKW2kBKFAQ3G4qopk9+IVcTn+KdzjJieLev61payG28aGJ/Df74revTtqffPuHiJBQ19EivO32lVMISKkco9mzsgJNYP9WWoboRxVUtPj9/tUP4qvRmYZCI2AflblYlyelhS4DHql02tv1fSxDL2XhZ9WuXbybJsc4G4f/lfVYpYvxIRP0AegFZwFSWFWR+vl9KK1kWlKf/xiwwNbxfp6Ob3UBNgfyykb8OFwpQnSnBoPb+C8Ff2aC5Iy54KuOdrnvDUWJlRdNKuwJgjQu7mVA34m+wRTWNGwm1yun9qFDJ7jcT/H9dBvL2yCIl/plvYIY+wOZasR0ooxfwoRQLhE/ldIqj8QYgwDyCC7WVgFi+Ygt/fixnmA01+27itYU+hZBq+DDxEkKaqRBYTBBdaZY6FzoIO03HA5RUJZiwR9untssEutz4rDdCQSdFfouktfcQ0RJa88oFHMipyElbSEKWotQRwRpo+/9ms9S1MiisBM+cXaHjaQkrCKlyAzB1o/jU5FIHHdu1KkAcN//J5u61WNtk5ifubmBaD4Q==|920

@@ -8,21 +8,7 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "ImagePath": "Mobile/409_pie_chart_1.svg",
         "BuiltIn": true,
         "Color": "Accent 1 0"
@@ -30,21 +16,7 @@
     },
     "1,4": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "ImagePath": "fgc_logo_dark.png"
       }
     }
@@ -64,7 +36,7 @@
     "1,4,3,8"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -75,4 +47,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//+EASG98vPEdSP4JJdhTcuAANlighaPDXkh4TUquL4+P9cc1RzQ6NyIE5XZILi7BhQtMXsLuzJxKJSmwGhCmgoV1RREXUtfTL3eHrPcgdJiP+V4Bqi/gJ35wu18HZeQ8ckHdpyrH7YuZkJRb506atcXBOo92tO1jdTPVkl2F0/r1ad73YceopgaDhX2IKwH88KVPRtVCT+PQm3Pm6lTMvZvrt/pczO/Vn/PdifiDMA4CnQhHiGdJQLUQHACoyWgR6GiNjD58vib+hmBvX14s29kmcWrtnOOZOnElSfOuvD2gbRZzNKn6v3hirXuUCbyqnIXR/NNB/k7EYbl97XxeD5ErXoCsXBfU8qsw7LdxTkG4CPreRBSFc6oczojNy9Jteftu5hOCxrbSvX/s5irq5GP9HRVvWa2XaTXVCHxYZ/ig92kVrj8Im02n6yYQo9vSUYECp6bT+ptU1ksVkBxPprtL1mmuqq0mwK46sKpZm9nUadLK+Em0qSkBjuBVQS8LUITqC3z2fbofpXNMxzawTOdi2pgXIECRxvoE2vJbhSUTFKVxMSn6VrKAUQWG46Ttab3PP7mykCz7mILL0PcDkKUnUhu99/O/LzRl+AUsgjx/4HQuENhTgg5ydhiRY9gfabnmlWATnCDC8hC1TdIdcQVuiC1SekvgmdP3cPJtItqHKIDiB7/S2LOn9MngpgalYYP0/gBQVYVUMy4GgPiwnkywZgD0aPBWrzUnBEeyw1vlnyWC5gbV1zUfEXCVqD+py1mzWrst9yQ5/1fR8kblmoFkRnq+FH6otBKSxEWnhwVMWxn2OrTfxiUU+1JB9HJDNeso6QJU/rwy4HgbydQiWlhzf2sPxRxzM9E7/yDunVISBdTQEfbivv8IWaTk372RhsKz6aoLlbYw5lNF521kBWQ==|920

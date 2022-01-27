@@ -45,30 +45,16 @@
     },
     "4,22": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "    //현재 페이지에 Namespace를 선언합니다.\r\n    var page = Forguncy.Page;\r\n    \r\n    //이름이 ListView1인 ListView를 가져옵니다.\r\n    var listview = page.getListView(\"ListView1\");\r\n\r\n    //ListView의 2번째 행(Row)을 선택합니다.\r\n    listview.addSelectedRow(2);",
-            "ID": "f23945242c9a4d7e9d4ff51a4381d549"
+            "ID": "234ee48fcc6044c89eb61dfd2be55cb6"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -199,7 +185,7 @@
     "2,15,1,5"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -210,4 +196,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//it8WR64/GWs5xhCCE/YbjQf3Kn+yrHtpBkA0s7b0CfK6zbVgLJ2LjXlHCrJtdaMoLTtTHCRy1UEQyJryrrkRPC1OclLN1pdWMWUxagNYB5M2fx/otRobOiKdCRpzOddVSkK4eB+Psh1TmgUR6tF3V+itdXMEhy15l4YyAywu3WzVqnak7poyjya69E1n7B7DEFikAmi0rrrNq6BrQqHNylfGl34W7yeZKgkBsbvgt5bOopgWMzEN1F8tvtO+Kvx5B+PdiIKRSeBy4fgkTQ55LNC1ESpwgg2PIxjDSdGLgM02rP6E0qnnIFfmSptiKl4rK+axFZf+sQkOYkN1wekVFFBO2vQ6CIDj0dcyrRVa4YSIXaLuAI9c/LDIoyamTUXG1PHvncxo7oKNHoGTsJHxXcNvY3MkGxbFMt5i/S8owWbm66hBm7U0T3NU3NDOzA9gcbcwZ7SUcxlHHJj7dZ5c0gajQDXl/3Gtdi7KI15La5O7nUYrcvo0aREZrsxZjyIEVr5o7+tozy3/SFmB4G5FTnbnRqnieFpBKlNZ8sYE+HN9rvU27A5r1eu0zKBlyMKfFYYwPNA4pOD+Xt08GxR+Ffbp1WiuxJf0vh/7VshKvNGtSajC84yOo/jA2bw4SOKo8RLv6TvT/AR7avrZ544TI1XQ7q/hHZCaMAMaJGkQfTi2eCKjJ2/G91B1z9Ev2TILdixGr7exeOd5nUrLFE3pk5tDjZu0amUvMede4imsGeZt2UiNbbSZzayOwBQ8smlq+zsQzSAo0T4H3iofT2V55vf7Tp7if0PCotc73etLuFfA+2wNn9Zbgg1016TIajmNfcghYuASG7dmH9ZKDvcFPsog+/zUJF769GNF/rv08HhU1Sb1LxjiHnzlfBvKevp4FwmU/5V5VHdK4x+O57YPQA==|920

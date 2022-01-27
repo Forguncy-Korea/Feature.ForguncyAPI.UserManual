@@ -14,7 +14,7 @@
   "AttachInfos": {
     "7,1": {
       "CellType": {
-        "$type": "Forguncy.RadioGroupCellType, Forguncy",
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
         "NoneItemText": "<空>",
         "Style": 1,
         "LayoutMode": 1,
@@ -41,72 +41,30 @@
             "DisplayValue": "본인이 담당자로 할당된 데이터 변경 시에만 알림"
           }
         ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "MailSubscription_Choice"
       }
     },
     "21,2": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "저장",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "MailSubscription_Button"
       }
     },
     "21,10": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
             "PassValues": []
           }
         ],
         "Text": "취소",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },
@@ -168,7 +126,7 @@
     "21,10,2,6"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "메일 구독",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
@@ -179,4 +137,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//s0jQzJnfb8TYlpsM4HCLnRbfx9FchShJdwfQyLsqlPRsgVeCkUaIe9u/jzyrDROjp64T4ukqbDtO+/EulC9sz4XkoDHNebm6ZROvyMlVjLS0mGJluEdSGqqfREy5O9BVMxs+kiC3QYNVubbrJe4r0t186XLS8b3epj3f6cBjPvoJAvIXeoFvAiKGRa/FRMIbVBVCBfOHRkRSGM5qQQwXoLZFxbjmxX0CoztQrGsntwUVD73ilicRt3Txrmf/JfSv912w6jqRrrAR3WD8Pw7NyjZ6vcz2SMFAmp9XzwpO+qwzfy0LBzaMvVoUMxaJ7KRX30jVHeuobg6Q6iSqI6B2GgV5DLypoQG1EFFIXKAZhto6qE7Bx909V1XYRcNa0+Pvo6a7GFV86czN8Z9MqVQKulxsDxhjSIw1jJ/UX1KpqHu2Z+eYyET1S/XsxVzU/NcXAy8dUa7YPaPQL8M3ZtBRbqG6NSijDQwgSYqJYoYEPBAJk62pCprAHY9alxIvkV47ZYpq4/R8iMzsrQPLB9l0cMnmPNtuYdvmstYZFc3mcgyvgsRjVA0LvqLj+LEMLmwDFYbeOGzBc3DdDexlQcIopZx0ChiHVp7K+8KqHW2IPLQrK/ufG1Wa/tKbxw7V2SvUZ1WXaQBAe6EAu2+8hbVruPtFHzoXKqYd6TwRmRTyKlvqtIfWw19VJVoI0wi9z/mmjLzCW2xq2bks+85by+xiIvajNWQu0wbQlm3g770rTM6rUssxZ0YgbhMx6dc9ebjYin1nrFGl7g/QxQOKbIGMPxvsHSaIdPZRdSnrzMufnnwR8t/jldH7mYnFrb2zYvS1HuN9CiCpLt6GhfL3wxveLFT7jhiIyu7S7CeSX2IlKTjjaP9xPXzx5I9jzLNtLoqusPrvE2Hkkjn0kqPX/Ngpmg==|920

@@ -1,0 +1,160 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 29
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "0,0": "  ",
+    "7,3": "2단계 보안인증 확인",
+    "9,3": "인증앱에 표시된 6자리 인증코드를 입력하세요.",
+    "12,3": "인증코드",
+    "20,3": "확인"
+  },
+  "AttachInfos": {
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "13,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_DarkTheme_Normal2",
+        "WaterMark": "",
+        "ForguncyAttribute": "MFA_VerifyCode_Inputbox"
+      },
+      "DataValidationInfo": {
+        "NumberType": 6,
+        "CompareParamType": 2,
+        "IgnoreBlank": false,
+        "FirstParamValue": "6",
+        "ErrorMessage": "6자리 인증코드를 입력하세요."
+      }
+    },
+    "16,3": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "이 장치에서 다시 묻지 않음",
+        "Style": 1,
+        "ForguncyAttribute": "MFA_VerifyCode_TrustDevice"
+      }
+    },
+    "20,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "확인",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Outline_RoundCorner_Style2",
+        "ForguncyAttribute": "MFA_VerifyCode_SubmitButton"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 2,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 4,
+        "Formatter": 5
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 6
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Formatter": 5
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Background 1 0",
+        "Center",
+        "#FFFFFFFF",
+        "[AUTO]General",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "7,3": 0,
+      "9,3": 1,
+      "12,3": 2,
+      "13,3": 3,
+      "16,3": 1,
+      "20,3": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "3,4,3,10",
+    "20,3,2,12",
+    "13,3,2,12",
+    "16,3,2,13",
+    "7,3,2,12",
+    "9,3,2,12"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "MobileLoginBackground",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "BackgroundPicture0",
+      "Size": "360,540"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "2단계 보안인증 확인",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//qeCJDhG1rht37VhlwQD1nZUm3iYprXp/CVEGMRq1ZTBZ2uNeJJzwyUs/IthoU66d4nH0sk3tj0vfRc/nAsfhEoefS+D1sez858wgIKJSZrQIsvRMazqN78cX1s6Pmd6zis5dgS/aLz8qEUef7n7UdjuxEzmn4PhPN9D2ANx5+TvRCF9i0Uku5L/A1gqz/Fc3mUknKqCQIEvwp06pGtyFUk4rudx55Dik5QggtzAY7YDTe1a9ZY3vCKjo4sl3xDC9F7s6Z9WdCrXJa+RzOeJQGbNHHztnzDDHrzyn/D8JgeYOZ/c1n1Q7WNW4Qpscmp2rn0oawTxUwsbBysV8pUlTXIQWnJw3ESGDekqqqc/geMIChZH/vO5jUpB5afXHvTGebsQlLQFS7AAg2lanq2+U21KGyWuvYfCk4e8Q9pgT95W0t9S+65RecpK3YzNmOYG/+jB+ZOxyQhHw5xm+BG+NMMhZxnR/RoppitOocl8RhVnfuZJ6zNJy9AJYHuiV6MtfZ5+u3Cw/HTo/Nfg/UyjO0qxEc6CHbWFHGuDchuSAj+ssGzNe96cYZGY8Ta2OYMz5lBeHwELN2KRyf3pL55xTjbpzx1w5oTaujNapYydhwi9rOQnjvA8ofMezd085iHwTI1JIzBGBIFqW3KYWga6hTuOPFOPIqRV5a9P3k13thFPRPzGJZUvRapv1sTOzLSPYZfh9YQoZYabz4R1ZwrS7y0h+CecwZ+VyzsJgTYH6Zy1fr+rgnQVJWrNdFNrhsjsxwM/O7q09GPXtLDbuXP23t1Dzi9kG6cujtW/Xs3cfVwjLiGhvciEX5YXNxdC3bO/2/Ii6zt4RLjFeDph22kvjXd8fDB3t9ys0v29eue5j+xfFFdm6ixCwA8gV2/z80QqzFSBDV9ioPGR+1VovroMZ6A==|920

@@ -16,107 +16,51 @@
   "AttachInfos": {
     "7,3": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ResetPassword_NewPassword"
       }
     },
     "11,3": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ResetPassword_ConfirmPassword"
       }
     },
     "15,3": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "재설정",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ResetPassword_Button"
       }
     },
     "18,3": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
             "PassValues": []
           }
         ],
         "Text": "취소",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },
@@ -190,7 +134,7 @@
     "23,1,1,16"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "비밀번호 재설정",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
@@ -201,4 +145,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}///E5ZFclyeyZ4lA3x+oqXljkcL9thgDxW5D36XA9de/kVftV5GRHrOJ0KnKiJCEopS5LzoJnncufUnkLfFZRn9Tap+hUgqKcxPo6CYiqc/rW7QdF7zhe4frH1gTpswql+Y81L0RJGdPFyvx6XL9y3f+zaIWK5ZictdxDRieKa07mTHIpLmZ+M1t1ZQItFYdRbczePZ0pm8LY4gh3z26NkHp6VSF22CdfDo4dV1wdK/Ntgh6AWWM5hKqZkOBwU+2Cby1EFza2XMRY0+kGz4ZDeljFrZHa9AS2qM1cEf0Cw+8MJN2YyKy++dt2GYRX3RQSG3ACaU69bCEfeggJV0k4fv0KaHyDOS0bWXquBvUqyDiO0tvci8fPTbeHgLpFOdr3uBsrzt0mRya4YnuIEIgEPBGLkHUi717mku27REtj6P043sUI0ghJQ5XN4vPfNFI6Y4rzOBNz/qFw6DZNCqBU8qnj2Fu7D4FljPZWfva4906fmac8B01EbLPPTW05lqm1OzerjgPZp/rMbO6ygvUWfVWBt3FVkhP1oeaTYbPzWa32CwI3foauew48ULvfGNyg+wic78UH0Z10olLkr+oDGU8+xb9VT9P0KjZe3KfbhdQeQ6QPw/DzpIgjJtngCLE9bGy/roR6Z3mmIBF13+3Qy6smqWH1a4aKMe1vy6++G36CuMESgCxjFeXCtpLOjz2HEft/e55pZnLKsHuLjWf95cjmp+X0b2n5aK4AbZh4s76yRWucuMqGM1wotaLCbLp+hbG5HFUjg/6iaP0zmfWogsJMcbJj1/bgVCVq27TKwZZ+nGKbd2CSKfeaq2f83FdvTAQMHiNaQ7Dg3jACNvFbGt20NMWkasi3PLDOgf5nGjdtiJ+aXdLyE0OuCXp7RRU81iqB5TyiZ5uYDDiSa02fkAQ==|920

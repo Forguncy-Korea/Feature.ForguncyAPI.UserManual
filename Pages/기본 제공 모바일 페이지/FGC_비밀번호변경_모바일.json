@@ -16,134 +16,64 @@
   "AttachInfos": {
     "7,3": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ChangePassword_OldPassword"
       }
     },
     "11,3": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ChangePassword_NewPassword"
       }
     },
     "15,3": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ChangePassword_ConfirmPassword"
       }
     },
     "19,3": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "비밀번호 변경",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "ChangePassword_Button"
       }
     },
     "22,3": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
             "PassValues": []
           }
         ],
         "Text": "취소",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },
@@ -212,7 +142,7 @@
     "22,3,2,12"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "비밀번호 변경",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
@@ -223,4 +153,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//CJJp8LBYZDNfn3XMaKE79Sxjp79nEWCtBsDI5T1Mv2sWnFhObsoI1r9Sx/BcIDTAPDD1gvx1fhhXd+bJUXiWdqp3PF/Zo/bsXlaYvtV0z8lMBAUqwiigpyFquN7HYloftMhJfvPJbjolTjM7lpSFu9OQR2O94zv/wiKeHZWoorVYOVMmM3IsYw9eIlOY/j8mP9O440daKJQizBC+g1fHboOA8ZqKN5XVcm57pJX3YAnEvxe6m/YNH3wHFzDxOSpxTQ4YuCkcPFkCFaRkKAxrDAdNFXszheZtqxlz0QSGioVR1h1mhkXTuU0UPhRVfP05Rx6/jutTov72I+rf17gNM5VEpYefojeqYism5gZJcfQ6fHlakflNk7x3d3X4YeGeh0KcOaNTX5AS57rYoIUzuPZhP5rLmrGK7F0PZiBCPByW8OY7d+NpijFEIZFf48lPTCmT/tLhKopdtTHIFVV7KxDFQXbeODSDiQXN/4YLeCZStBzrQgO+p8UCuGNlfiZTuL7UR4xyD8qEB9vD7LmPXig/5z/3mkapiXhKDXr8ln9BYS52WIp9huKaGKwDrw9J22pQ5OZ/MHaE/+ZfFHM9bJ+CTzXuAjkbzpcSm3JuCk+acA0mUQ05EF9rzhj3BBeO+Y2elfbMRcXp/dSBOYmdSMNDT7JYaAZ7SUJ2hIaSDoNtwlg6njWohyBCQ63/Wc3dnYDgHYZBliAdkV4Ls+p3ogmaXGKy77YlOubs1DOUD0XwINr+D3H/SB3tqghLpB/lKQiwVUpuFFN21D7rJ03Q8vm7wfUz22hTAGFvCRS9gOok8s5jGO+G5w3gbumApkNl7HyLbVWI//2+x/f3f37eb2GeQZqZzQQzIFLWXMDhfURIwcOkKa9jOgXxuRQfU35AzbjfX/3hJd3Yj4VPMAiQHg==|920

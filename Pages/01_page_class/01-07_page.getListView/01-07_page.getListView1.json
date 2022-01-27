@@ -62,30 +62,16 @@
     },
     "11,1": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지를 불러옵니다.\r\n  var page = Forguncy.Page;\r\n\r\n  //이름이 ListView1이라는 ListView의 인스턴스를 가져옵니다.\r\n  var listview = page.getListView(\"ListView1\");\r\n\r\n  //ListView1의 속성 중 이름을 확인합니다.\r\n  var name = listview.getName();\r\n\r\n  //ListView1의 이름을 화면에 표시합니다.\r\n  alert(name);",
-            "ID": "a511c6b2bc4f415ca9ecdbab871cd74b"
+            "ID": "736937569ba8474288b01e23fa6303ef"
           }
         ],
         "Text": "분류",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -471,7 +457,7 @@
     "1,25,1,10"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -482,4 +468,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//0tWnhiLbNv7nFqVH4zo1sNhOTMF6cgWtHP/GLSO+B+xXnJeAjgzzUpu63gMfeRdW8ihC+gfQCL/UsNNllikbOcZIQ7AsoCc1FnMbCWn1EdpOodsc6mIQ0avdD7Eo7W/pArvby8Cq9d9xDi13wbgQdaXXI92zcV7fAIkioA16wVpFpuWmflA5Wtrh2BEUj4bZM+VmcyMYzMlQjCWHz1P3Mto/PeMtNaraCKroJlYfq1jCteamgmXW7Jnfn/r2dr4y31BT53v6S6utw+1Z2GQ+TtRHj0tWCmKAOr6Y4DUV5gB+ibCa5OpHhSQeCKVHcHGTGwT+CouAKGiBBEYSaNKQuRvJouVoKTiZjvHjYc+QeYmU2XQGtKZqR7QPWXs8UquqHNvYvRZ73qw0tmOx7nxOFfW8E1ZkxWG+qtBm1RqHnSz/W79Bk8ost48tHsauPuwpzz9kivevJbYCu1Exl6g88apNH5QCsh2yANUmapj3vmWUMffkebjSEj9cuX7EAO9o6BXJfIU1hgyGxk7kJkV/O4ToOZKY2pbYQ5rKNXy8krer2xVZoVXLkfehgxxCns8lkjSu79OQN809LCywcc3vlEOujoH8Gfz5ZfSQ4RsjG3yxPTz+j5h61uXOi95KZ0uyzXYNsI2wTagl5teq0Q+ogjC+VPTHM/YGVPw0ES0sXDBgF9gytEWJn4uIcZuiR1Z/c99TFW4SlfAhWWSJIxi1pC+XHW3wFP8xIUYn7PC3Gg47x9a3t5FImh+0WbEvsr2z3EPs7SlCayYjO+Ju5IlW/qC9+xG3xGdR+gnJOc0weplVtucjx604uVCi8PlMprnwLQc0sdQdPVtCY3Oh6wBMBZiwLbsd1Yg+DYmSXX6l4ukQmvq21ny7Rur20EwRtdzaY7jFQGLvIG8smvU6UhloDQ==|920

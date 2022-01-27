@@ -11,85 +11,43 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
     "1,6": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 myCell로 지정된 셀 인스턴스의 속성을 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell에 Focus가 되어 있는 지 확인합니다.\r\n  var f = cell.hasFocus();\r\n\r\n  //포커스 결과를 화면에 표시합니다.\r\n  alert(f);",
-            "ID": "5f09d505bf824ef6a4bc02e269b8f56d"
+            "ID": "2864d6239e094393a689c5389035021f"
           }
         ],
         "Text": "버튼",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,1": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "  //현재 페이지에 Namespace를 선언합니다.\r\n  var page = Forguncy.Page;\r\n  \r\n  //Cell Name이 myCell로 지정된 셀 인스턴스의 속성을 가져옵니다.\r\n  var cell = page.getCell(\"myCell\");\r\n\r\n  //myCell에 Focus가 되어 있는 지 확인합니다.\r\n  var f = cell.hasFocus();\r\n\r\n  //포커스 결과를 화면에 표시합니다.\r\n  alert(f);",
-            "ID": "68f4df46699d463192a50cace81abfee"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
+            "ID": "f15b6b6b7f0c4687b7625fbdccf07363"
           }
         ]
       }
@@ -111,7 +69,7 @@
     "4,1,2,4"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -128,4 +86,4 @@
       "Formula": "'02-13_cell.hasFocus1'!$B$2"
     }
   ]
-}
+}//h3bz6yfvIxy88J2Vn+gG2AaNBamGkMGJDp5AdpVexDVoFYFnihOQ69NeQz29Pd6mAqkMGZjiP9tRQlC1RwfFFV7kElrzeE+kdByp53N1Srmt45B87lOtIsEb15nDbwgZc+AgdJAksRxI62UnxGXO5kByNMUhovhVeSstCzvz0gH8FDsYHs03f/V3mcjR/8zO/b7RnXz36fbIEo4gvSiAyshKfrYr4bdvpgJdSV4TyW+8jJb5s4plXUoTand7YZisZ85Z3oPEXKJLHWZycjpLk0AXGbDYkG9uUtS6SRioJ8ezJOmH610Ta32sfNQLqGmAjKW1GmLbBqOwTMWNnj5qfnxLkrPHUS0wJWbKBXHJ4DzzdGTFp3y6sordX1u+Cbz6vfCZUfdqGyC/tVJUmM8qWJ7tZ/j0a1MSv37PmMPUg+QRIhcUg6jV7opJg2+cNQmV5SMvyGQD5PFslzb+gGuf0yN7tQ2PwtRAGTf4iqNsL+IWJ6azYNyKaCj1gBeSMK5kRdPGscf80sErFOAl2GbTvTIU2jRl9tatT4N/qw6f5/6lo25N8Qj5C8w/EldSujBHg4FYhDF3ozBEE3saCjEsJN3/5mwNJnoS/7EC34qujcw/wurkDQyNwsFcgUPn8OWHf2waF+pFc5gKnKr35trP4pSmRMQKkTqPSiHtEtqa2Q0SxxHlcWRWLKPTC4PxufxDG4OVCiADfHorXBvnxebezI+YVl7UjZ7+yW9S36CSSgPSTrjZeD2kGZJQY4qnxyz1iUFtA6RXXd7vLEMRkoEEDpOCIYD0UCZW++IUB4ODBxhw7p4/O7W2o4jgSDV9Dli+8fOY1VgOncqD5lLm5MNnGrSL4G3655z/+cd/F3nDUivpTYdqGdJMHC11+Ss5N/u0SgcuII7QAPHZQV9MT0SQPQ==|920
