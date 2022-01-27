@@ -127,16 +127,7 @@
   },
   {
     "ModuleName": "PCPage/main page",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:16:53.840046+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\main page.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class",
