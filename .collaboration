@@ -127,16 +127,7 @@
   },
   {
     "ModuleName": "PCPage/main page",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3182395+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\main page.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class",
@@ -148,17 +139,7 @@
   },
   {
     "ModuleName": "PCPage/01-01_page.bind1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3182395+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-01_page.bind\\01-01_page.bind1.json",
-      "UserJaveScript\\01-01_page-bind-exmaple01.js"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-02_page.getCellArray",
@@ -166,29 +147,11 @@
   },
   {
     "ModuleName": "PCPage/01-02_page.getCellArray1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-02_page.getCellArray\\01-02_page.getCellArray1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/01-02_page.getCellArray2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-02_page.getCellArray\\01-02_page.getCellArray2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-03_page.getCellByLocation",
@@ -196,16 +159,7 @@
   },
   {
     "ModuleName": "PCPage/01-03_page.getCellByLocation1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-03_page.getCellByLocation\\01-03_page.getCellByLocation1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-04_page.getCell",
@@ -213,29 +167,11 @@
   },
   {
     "ModuleName": "PCPage/01-04_page.getCell1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-04_page.getCell\\01-04_page.getCell1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/01-04_page.getCell2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-04_page.getCell\\01-04_page.getCell2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-05_page.getContainerCells",
@@ -243,29 +179,11 @@
   },
   {
     "ModuleName": "PCPage/01-05_page.getContainerCells1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-05_page.getContainerCells\\01-05_page.getContainerCells1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/01-05_page.getContainerCells2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-05_page.getContainerCells\\01-05_page.getContainerCells2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-06_page.getListViews",
@@ -273,16 +191,7 @@
   },
   {
     "ModuleName": "PCPage/01-06_page.getListViews1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-06_page.getListViews\\01-06_page.getListViews1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-07_page.getListView",
@@ -290,16 +199,7 @@
   },
   {
     "ModuleName": "PCPage/01-07_page.getListView1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-07_page.getListView\\01-07_page.getListView1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-08_page.getMasterPageName",
@@ -307,16 +207,7 @@
   },
   {
     "ModuleName": "PCPage/01-08_page.getMasterPageName1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-08_page.getMasterPageName\\01-08_page.getMasterPageName1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-09_page.getPageName",
@@ -324,16 +215,7 @@
   },
   {
     "ModuleName": "PCPage/01-09_page.getPageName1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-09_page.getPageName\\01-09_page.getPageName1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-10__보류__page.getSubPageInfoByPageID",
@@ -341,29 +223,11 @@
   },
   {
     "ModuleName": "PCPage/01-10_페이지1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-10__보류__page.getSubPageInfoByPageID\\01-10_페이지1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/01-10_페이지2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-10__보류__page.getSubPageInfoByPageID\\01-10_페이지2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-11_page.getUserInfo",
@@ -371,16 +235,7 @@
   },
   {
     "ModuleName": "PCPage/01-11_page.getUserInfo1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-11_page.getUserInfo\\01-11_page.getUserInfo1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-12_page.gerUserName",
@@ -388,16 +243,7 @@
   },
   {
     "ModuleName": "PCPage/01-12_page.gerUserName1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-12_page.gerUserName\\01-12_page.gerUserName1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-13_page.ready",
@@ -405,17 +251,7 @@
   },
   {
     "ModuleName": "PCPage/01-13_page.ready1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-13_page.ready\\01-13_page.ready1.json",
-      "UserJaveScript\\01-13_page-ready-example01.js"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-14_page.recalc",
@@ -423,16 +259,7 @@
   },
   {
     "ModuleName": "PCPage/01-14_page.recalc1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-14_page.recalc\\01-14_page.recalc1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-15_page.reloadBindingData",
@@ -440,16 +267,7 @@
   },
   {
     "ModuleName": "PCPage/01-15_page.reloadBindingData1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-15_page.reloadBindingData\\01-15_page.reloadBindingData1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-16_page.resumeCalc",
@@ -457,16 +275,7 @@
   },
   {
     "ModuleName": "PCPage/01-16_page.resumeCalc1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-16_page.resumeCalc\\01-16_page.resumeCalc1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-17_page.setCurrentRow",
@@ -474,16 +283,7 @@
   },
   {
     "ModuleName": "PCPage/01-17_page.setCurrentRow1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-17_page.setCurrentRow\\01-17_page.setCurrentRow1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/01_page_class/01-18_page.unbind",
@@ -491,17 +291,7 @@
   },
   {
     "ModuleName": "PCPage/01-18_page.unbind1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\01_page_class\\01-18_page.unbind\\01-18_page.unbind1.json",
-      "UserJaveScript\\01-18_page-unbind-example02.js"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class",
@@ -513,16 +303,7 @@
   },
   {
     "ModuleName": "PCPage/02-01_cell.disable_enable1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-01_cell.disable_enable\\02-01_cell.disable_enable1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-02_cell.hide_show",
@@ -530,16 +311,7 @@
   },
   {
     "ModuleName": "PCPage/02-02_cell.hide_show1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-02_cell.hide_show\\02-02_cell.hide_show1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-03_cell.getValue",
@@ -547,16 +319,7 @@
   },
   {
     "ModuleName": "PCPage/02-03_cell.getValue1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-03_cell.getValue\\02-03_cell.getValue1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-04_cell.setValue",
@@ -564,16 +327,7 @@
   },
   {
     "ModuleName": "PCPage/02-04_cell.setValue1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-04_cell.setValue\\02-04_cell.setValue1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-05_cell.bind",
@@ -581,16 +335,7 @@
   },
   {
     "ModuleName": "PCPage/02-05_cell.bind1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-05_cell.bind\\02-05_cell.bind1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-06_cell.unbind",
@@ -598,16 +343,7 @@
   },
   {
     "ModuleName": "PCPage/02-06_cell.unbind1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-06_cell.unbind\\02-06_cell.unbind1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-07_cell.unbindall",
@@ -615,16 +351,7 @@
   },
   {
     "ModuleName": "PCPage/02-07_cell.unbindall1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-07_cell.unbindall\\02-07_cell.unbindall1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-08_cell.getActiveTabIndex",
@@ -632,68 +359,23 @@
   },
   {
     "ModuleName": "PCPage/02-08_cell.getActiveTabIndex1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-08_cell.getActiveTabIndex\\02-08_cell.getActiveTabIndex1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-08_cell.getActiveTabIndex2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-08_cell.getActiveTabIndex\\02-08_cell.getActiveTabIndex2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-08_cell.getActiveTabIndex3",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-08_cell.getActiveTabIndex\\02-08_cell.getActiveTabIndex3.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-08_cell.getActiveTabIndex4",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-08_cell.getActiveTabIndex\\02-08_cell.getActiveTabIndex4.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-08_cell.getActiveTabIndex5",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3192381+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-08_cell.getActiveTabIndex\\02-08_cell.getActiveTabIndex5.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-09_cell.getContentPage",
@@ -701,29 +383,11 @@
   },
   {
     "ModuleName": "PCPage/02-09_cell.getContentPage1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-09_cell.getContentPage\\02-09_cell.getContentPage1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-09_cell.getContentPage2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-09_cell.getContentPage\\02-09_cell.getContentPage2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-10_cell.getTabCount",
@@ -731,68 +395,23 @@
   },
   {
     "ModuleName": "PCPage/02-10_cell.getTabCount1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-10_cell.getTabCount\\02-10_cell.getTabCount1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-10_cell.getTabCount2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-10_cell.getTabCount\\02-10_cell.getTabCount2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-10_cell.getTabCount3",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-10_cell.getTabCount\\02-10_cell.getTabCount3.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-10_cell.getTabCount4",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-10_cell.getTabCount\\02-10_cell.getTabCount4.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-10_cell.getTabCount5",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-10_cell.getTabCount\\02-10_cell.getTabCount5.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-11_cell.getTabPage",
@@ -800,29 +419,11 @@
   },
   {
     "ModuleName": "PCPage/02-11_cell.getTabPage1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-11_cell.getTabPage\\02-11_cell.getTabPage1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-11_cell.getTabPage2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-11_cell.getTabPage\\02-11_cell.getTabPage2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-12_cell.showTab",
@@ -830,68 +431,23 @@
   },
   {
     "ModuleName": "PCPage/02-12_cell.showTab1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-12_cell.showTab\\02-12_cell.showTab1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-12_cell.showTab2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-12_cell.showTab\\02-12_cell.showTab2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-12_cell.showTab3",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-12_cell.showTab\\02-12_cell.showTab3.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-12_cell.showTab4",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-12_cell.showTab\\02-12_cell.showTab4.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/02-12_cell.showTab5",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-12_cell.showTab\\02-12_cell.showTab5.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-13_cell.hasFocus",
@@ -899,16 +455,7 @@
   },
   {
     "ModuleName": "PCPage/02-13_cell.hasFocus1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-13_cell.hasFocus\\02-13_cell.hasFocus1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-14_cell.setFocus",
@@ -916,16 +463,7 @@
   },
   {
     "ModuleName": "PCPage/02-14_cell.setFocus1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-14_cell.setFocus\\02-14_cell.setFocus1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-15_cell.setBackcolor",
@@ -933,16 +471,7 @@
   },
   {
     "ModuleName": "PCPage/02-15_cell.setBackcolor1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-15_cell.setBackcolor\\02-15_cell.setBackcolor1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/02_cell_class/02-16_cell.setForecolor",
@@ -950,16 +479,7 @@
   },
   {
     "ModuleName": "PCPage/02-16_cell.setForecolor1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\02_cell_class\\02-16_cell.setForecolor\\02-16_cell.setForecolor1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/03_cellevent",
@@ -971,16 +491,7 @@
   },
   {
     "ModuleName": "PCPage/03-01_cellevent.Click1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\03_cellevent\\03-01_cellevent.Click\\03-01_cellevent.Click1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/03_cellevent/03-02_cellevent.PitvotTableClick",
@@ -988,17 +499,7 @@
   },
   {
     "ModuleName": "PCPage/03-02_cellevent.PitvotTableClick1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\03_cellevent\\03-02_cellevent.PitvotTableClick\\03-02_cellevent.PitvotTableClick1.json",
-      "UserJaveScript\\03-02_cellevent-pivottablecell-example01.js"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/03_cellevent/03-03_cellevent.EnterMouse",
@@ -1006,17 +507,7 @@
   },
   {
     "ModuleName": "PCPage/03-03_cellevent.EnterMouse1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\03_cellevent\\03-03_cellevent.EnterMouse\\03-03_cellevent.EnterMouse1.json",
-      "UserJaveScript\\03-03_cellevent-mouseenter-example01.js"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/03_cellevent/03-04_cellevent.LeaveMouse",
@@ -1024,16 +515,7 @@
   },
   {
     "ModuleName": "PCPage/03-04_cellevent.LeaveMouse1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\03_cellevent\\03-04_cellevent.LeaveMouse\\03-04_cellevent.LeaveMouse1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/03_cellevent/03-05_cellevent.SelectionChanged",
@@ -1041,16 +523,7 @@
   },
   {
     "ModuleName": "PCPage/03-05_cellevent.SelectionChanged1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\03_cellevent\\03-05_cellevent.SelectionChanged\\03-05_cellevent.SelectionChanged1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/03_cellevent/03-06_cellevent_ValueChanged",
@@ -1058,16 +531,7 @@
   },
   {
     "ModuleName": "PCPage/03-06_cellevent_ValueChanged1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\03_cellevent\\03-06_cellevent_ValueChanged\\03-06_cellevent_ValueChanged1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/04-01_listview.addNewRow",
@@ -1075,16 +539,7 @@
   },
   {
     "ModuleName": "PCPage/04-01_listview.addNewRow1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\04-01_listview.addNewRow\\04-01_listview.addNewRow1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/04-02_listview.addSelectedRow",
@@ -1092,16 +547,7 @@
   },
   {
     "ModuleName": "PCPage/04-02_listview.addSelectedRow1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\04-02_listview.addSelectedRow\\04-02_listview.addSelectedRow1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/04-03_listview.reload",
@@ -1109,16 +555,7 @@
   },
   {
     "ModuleName": "PCPage/04-03_listview.reload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-01-27T16:08:46.3202385+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\04-03_listview.reload\\04-03_listview.reload.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
